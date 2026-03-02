@@ -1,10 +1,15 @@
+import argparse
 import asyncio
 import os
 import re
+from datetime import datetime
 from urllib.parse import urljoin, urlparse
 from playwright.async_api import async_playwright
 from neo4j import GraphDatabase
 from collections import defaultdict
+
+LOG_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'log')
+RUN_LOG = os.path.join(LOG_DIR, 'run.log')
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -22,20 +27,26 @@ SKIP_URL_PATTERNS = [
 
 
 class WebGraphCrawlerNeo4j:
-    def __init__(self, max_depth=2, external_max_hops=2):
+    def __init__(self, max_depth=2, external_max_hops=2, run_id="default"):
         self.driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
         self.driver.verify_connectivity()
         self.visited = set()
         self.max_depth = max_depth
         self.external_max_hops = external_max_hops
+        self.run_id = run_id
         self._ensure_constraints()
 
     def _ensure_constraints(self):
-        """Create uniqueness constraint on Page.url for fast lookups"""
+        """Create uniqueness constraint on Page (url + run_id) for fast lookups"""
         with self.driver.session() as session:
+            # Drop the old single-property constraint if it exists
+            try:
+                session.run("DROP CONSTRAINT page_url_unique IF EXISTS")
+            except Exception:
+                pass
             session.run(
-                "CREATE CONSTRAINT page_url_unique IF NOT EXISTS "
-                "FOR (p:Page) REQUIRE p.url IS UNIQUE"
+                "CREATE CONSTRAINT page_url_run_unique IF NOT EXISTS "
+                "FOR (p:Page) REQUIRE (p.url, p.run_id) IS UNIQUE"
             )
 
     def close(self):
@@ -82,12 +93,32 @@ class WebGraphCrawlerNeo4j:
             return label
         return parsed.netloc
 
+    _OGC_SERVICES = {'wms', 'wfs', 'wcs', 'csw', 'wmts', 'wps'}
+
+    def _is_ogc_service(self, url):
+        """Detect OGC service URLs by query params, path segments, or subdomain"""
+        url_lower = url.lower()
+        parsed = urlparse(url_lower)
+        # Standard OGC query parameter: SERVICE=WMS|WFS|WCS|CSW|WMTS|WPS
+        if any(f'service={s}' in parsed.query for s in self._OGC_SERVICES):
+            return True
+        # Path segment match: /wms, /wfs, /ows, /geoserver, /mapserv, etc.
+        path_segments = set(parsed.path.split('/'))
+        if path_segments & (self._OGC_SERVICES | {'ows', 'geoserver', 'mapserv'}):
+            return True
+        # Subdomain hint: wms.example.org, ows.example.org, etc.
+        if any(parsed.netloc.startswith(s + '.') for s in self._OGC_SERVICES | {'ows', 'geoserver'}):
+            return True
+        return False
+
     def categorize_link(self, url):
         """Categorize the type of link"""
         if '#/metadata/' in url:
             return 'metadata'
         elif '#/search' in url:
             return 'search'
+        elif self._is_ogc_service(url):
+            return 'service'
         elif 'download' in url.lower() or url.endswith(('.zip', '.pdf', '.csv', '.json', '.xml')):
             return 'download'
         elif urlparse(url).netloc != urlparse(BASE_URL).netloc:
@@ -96,21 +127,22 @@ class WebGraphCrawlerNeo4j:
             return 'internal'
 
     def _upsert_page(self, tx, url, **properties):
-        """MERGE a Page node with the given properties"""
+        """MERGE a Page node with the given properties, scoped by run_id"""
         tx.run(
-            "MERGE (p:Page {url: $url}) "
+            "MERGE (p:Page {url: $url, run_id: $run_id}) "
             "SET p += $props",
-            url=url, props=properties
+            url=url, run_id=self.run_id, props=properties
         )
 
     def _upsert_link(self, tx, source_url, target_url, link_type, text):
-        """MERGE a LINKS_TO relationship between two pages"""
+        """MERGE a LINKS_TO relationship between two pages within the same run"""
         tx.run(
-            "MERGE (src:Page {url: $src}) "
-            "MERGE (tgt:Page {url: $tgt}) "
-            "MERGE (src)-[r:LINKS_TO]->(tgt) "
+            "MERGE (src:Page {url: $src, run_id: $run_id}) "
+            "MERGE (tgt:Page {url: $tgt, run_id: $run_id}) "
+            "MERGE (src)-[r:LINKS_TO {run_id: $run_id}]->(tgt) "
             "SET r.type = $type, r.text = $text",
-            src=source_url, tgt=target_url, type=link_type, text=text
+            src=source_url, tgt=target_url, run_id=self.run_id,
+            type=link_type, text=text
         )
 
     async def extract_links(self, page, current_url):
@@ -237,14 +269,27 @@ class WebGraphCrawlerNeo4j:
 
             await browser.close()
 
+    def log_run(self, node_count):
+        """Append run summary to the shared run log"""
+        os.makedirs(LOG_DIR, exist_ok=True)
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        with open(RUN_LOG, 'a') as f:
+            f.write(f"{timestamp}  crawler=page  run_id={self.run_id}  nodes={node_count}\n")
+
     def print_statistics(self):
-        """Print graph statistics by querying Neo4j"""
+        """Print graph statistics for the current run_id"""
         with self.driver.session() as session:
-            node_count = session.run("MATCH (p:Page) RETURN count(p) AS c").single()["c"]
-            edge_count = session.run("MATCH ()-[r:LINKS_TO]->() RETURN count(r) AS c").single()["c"]
+            node_count = session.run(
+                "MATCH (p:Page {run_id: $run_id}) RETURN count(p) AS c",
+                run_id=self.run_id
+            ).single()["c"]
+            edge_count = session.run(
+                "MATCH ()-[r:LINKS_TO {run_id: $run_id}]->() RETURN count(r) AS c",
+                run_id=self.run_id
+            ).single()["c"]
 
             print("\n" + "=" * 50)
-            print("WEB GRAPH STATISTICS (Neo4j)")
+            print(f"WEB GRAPH STATISTICS (Neo4j) — run: {self.run_id}")
             print("=" * 50)
             print(f"\nTotal nodes: {node_count}")
             print(f"Total edges: {edge_count}")
@@ -252,7 +297,7 @@ class WebGraphCrawlerNeo4j:
             # Count by type
             print("\nNodes by type:")
             type_rows = session.run(
-                "MATCH (p:Page) "
+                "MATCH (p:Page {run_id: $run_id}) "
                 "RETURN coalesce(p.type, "
                 "  CASE "
                 "    WHEN p.url CONTAINS '#/metadata/' THEN 'metadata' "
@@ -260,7 +305,8 @@ class WebGraphCrawlerNeo4j:
                 "    ELSE 'other' "
                 "  END"
                 ") AS type, count(*) AS c "
-                "ORDER BY c DESC"
+                "ORDER BY c DESC",
+                run_id=self.run_id
             )
             for row in type_rows:
                 print(f"  {row['type']}: {row['c']}")
@@ -268,9 +314,10 @@ class WebGraphCrawlerNeo4j:
             # Most connected nodes (out-degree)
             print("\nMost connected nodes (by out-degree):")
             out_rows = session.run(
-                "MATCH (p:Page)-[r:LINKS_TO]->() "
+                "MATCH (p:Page {run_id: $run_id})-[r:LINKS_TO {run_id: $run_id}]->() "
                 "RETURN p.label AS label, count(r) AS degree "
-                "ORDER BY degree DESC LIMIT 5"
+                "ORDER BY degree DESC LIMIT 5",
+                run_id=self.run_id
             )
             for row in out_rows:
                 print(f"  {row['label']}: {row['degree']} outgoing links")
@@ -278,12 +325,15 @@ class WebGraphCrawlerNeo4j:
             # Most referenced nodes (in-degree)
             print("\nMost referenced nodes (by in-degree):")
             in_rows = session.run(
-                "MATCH ()-[r:LINKS_TO]->(p:Page) "
+                "MATCH ()-[r:LINKS_TO {run_id: $run_id}]->(p:Page {run_id: $run_id}) "
                 "RETURN p.label AS label, count(r) AS degree "
-                "ORDER BY degree DESC LIMIT 5"
+                "ORDER BY degree DESC LIMIT 5",
+                run_id=self.run_id
             )
             for row in in_rows:
                 print(f"  {row['label']}: {row['degree']} incoming links")
+
+            self.log_run(node_count)
 
 
 def load_metadata_links(filepath='metadata_links.txt'):
@@ -299,13 +349,23 @@ def load_metadata_links(filepath='metadata_links.txt'):
 
 
 async def main():
+    parser = argparse.ArgumentParser(description="Crawl catalog and store graph in Neo4j")
+    parser.add_argument(
+        "--run-id",
+        default="default",
+        help="Identifier for this crawl run (e.g. 'spain-2026-02-18'). "
+             "Allows multiple independent graphs in the same database.",
+    )
+    parser.add_argument("--max-depth", type=int, default=1, help="Maximum crawl depth")
+    args = parser.parse_args()
+
     print("Loading metadata links...")
     seed_links = load_metadata_links(os.path.join(SCRIPT_DIR, '..', 'es_metadata_links.txt'))
     print(f"Found {len(seed_links)} metadata links")
 
-    crawler = WebGraphCrawlerNeo4j(max_depth=1)
+    crawler = WebGraphCrawlerNeo4j(max_depth=args.max_depth, run_id=args.run_id)
 
-    print(f"\nCrawling all {len(seed_links)} pages...")
+    print(f"\nCrawling all {len(seed_links)} pages... (run_id={args.run_id})")
 
     try:
         await crawler.crawl_from_seeds(seed_links)

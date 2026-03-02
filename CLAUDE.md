@@ -16,6 +16,7 @@ Two target catalogs:
 - **tesis-playwrightCrawler/** — Python async crawlers using Playwright
   - **es/** — Spain-specific crawlers and data
   - **uy/** — Uruguay-specific crawlers and data
+  - **log/** — Run log (`run.log`) tracking every crawl run with timestamps and node counts
   - **notas/** — Research notes
 
 ## Commands
@@ -48,40 +49,53 @@ python tesis-playwrightCrawler/es/buscador-item.py
 # Crawl pages and build graph (NetworkX → JSON + PNG)
 python tesis-playwrightCrawler/es/graph_crawler.py
 
-# Crawl pages and build graph (Neo4j storage)
-python tesis-playwrightCrawler/es/graph_crawler_neo4j.py
+# Crawl pages and build page-level graph (Neo4j storage)
+python tesis-playwrightCrawler/es/graph_crawler_neo4j.py --run-id <name> [--max-depth N]
+
+# Crawl pages and build site-level graph (Neo4j storage, one node per domain)
+python tesis-playwrightCrawler/es/site_graph_crawler_neo4j.py --run-id <name> [--max-depth N] [--external-max-hops N]
 
 # Visualize existing JSON graph data
 python tesis-playwrightCrawler/es/visualize_graph.py
 ```
 
-Crawlers launch a visible Chromium browser (`headless=False`).
+All Neo4j crawlers support `--run-id` to store multiple independent graphs in the same database. Each run is logged to `tesis-playwrightCrawler/log/run.log`.
+
+Crawlers launch Chromium in headless mode (`headless=True`).
 
 ## Architecture
 
 ### Pipeline
 
 1. **Link Discovery** (`buscador-item.py`) — Navigates paginated GeoNetwork search results, extracts `#/metadata/{uuid}` links, writes them to `*_metadata_links.txt`
-2. **Graph Crawling** — Two parallel implementations that share the same crawling logic:
+2. **Graph Crawling** — Three implementations:
    - `graph_crawler.py` — Stores graph in-memory with NetworkX, exports to `web_graph.json` and `web_structure.png`
-   - `graph_crawler_neo4j.py` — Stores graph directly in Neo4j via Bolt protocol using MERGE-based upserts
+   - `graph_crawler_neo4j.py` — Page-level graph in Neo4j (one node per URL), via Bolt protocol using MERGE-based upserts
+   - `site_graph_crawler_neo4j.py` — Site-level graph in Neo4j (one node per domain), aggregates link counts between sites
 3. **Visualization** (`visualize_graph.py`) — Loads `web_graph.json` and renders a color-coded network diagram
 
 ### Crawler Design
 
-Both crawler classes (`WebGraphCrawler`, `WebGraphCrawlerNeo4j`) share the same core logic:
-- Recursive depth-limited crawling (`max_depth`, default 2)
+All crawler classes share core logic:
+- Recursive depth-limited crawling (`max_depth`)
 - External hop limiting (`external_max_hops`, default 2) to avoid crawling too far outside the catalog
 - Link categorization: `metadata`, `search`, `download`, `external`, `internal`, `action`
 - URL normalization handling hash fragments (`#/metadata/...`, `#/search`)
 - Skip patterns for auth/admin pages
 - 2-second delay + `networkidle` wait for JS-heavy GeoNetwork pages
 - Per-page link follow limit of 10 to prevent combinatorial explosion
+- `--run-id` support for storing multiple independent graphs in the same Neo4j instance
+- Run logging to `tesis-playwrightCrawler/log/run.log` (timestamp, crawler type, run_id, node count)
 
 ### Neo4j Schema
 
-- **Node label:** `Page` with properties: `url` (unique constraint), `label`, `title`, `depth`, `type`, `links_count`, `external_hops`, `error`
-- **Relationship:** `LINKS_TO` with properties: `type`, `text`
+**Page-level graph** (`graph_crawler_neo4j.py`):
+- **Node label:** `Page` with properties: `url`, `run_id` (composite unique constraint), `label`, `title`, `depth`, `type`, `links_count`, `external_hops`, `error`
+- **Relationship:** `LINKS_TO` with properties: `run_id`, `type`, `text`
+
+**Site-level graph** (`site_graph_crawler_neo4j.py`):
+- **Node label:** `Site` with properties: `url`, `run_id` (composite unique constraint), `label` (domain), `pages_crawled`
+- **Relationship:** `LINKS_TO` with properties: `run_id`, `link_count` (aggregated page-level links between sites)
 
 ### Key Dependencies
 

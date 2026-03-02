@@ -1,0 +1,48 @@
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: tesis-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+  neo4j-es:
+    image: neo4j:5
+    container_name: tesis-neo4j-es
+    ports:
+      - "7474:7474" # HTTP browser
+      - "7687:7687" # Bolt protocol
+    environment:
+      - NEO4J_AUTH=neo4j/tesis_password
+      - NEO4J_PLUGINS=["apoc"]
+      - NEO4J_dbms_security_procedures_unrestricted=apoc.*
+    volumes:
+      - neo4j_es_data:/data
+      - neo4j_es_logs:/logs
+
+  neo4j-ch:
+    image: neo4j:5
+    container_name: tesis-neo4j-ch
+    ports:
+      - "7475:7474" # HTTP browser
+      - "7688:7687" # Bolt protocol
+    environment:
+      - NEO4J_AUTH=neo4j/tesis_password
+      - NEO4J_PLUGINS=["apoc"]
+      - NEO4J_dbms_security_procedures_unrestricted=apoc.*
+    volumes:
+      - neo4j_ch_data:/data
+      - neo4j_ch_logs:/logs
+
+volumes:
+  redis_data:
+    name: tesis-redis-data
+  neo4j_es_data:
+    name: tesis-neo4j-es-data
+  neo4j_es_logs:
+    name: tesis-neo4j-es-logs
+  neo4j_ch_data:
+    name: tesis-neo4j-ch-data
+  neo4j_ch_logs:
+    name: tesis-neo4j-ch-logs

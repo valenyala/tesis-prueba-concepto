@@ -1,0 +1,370 @@
+Logging to /home/valenyala/repos/tesis-prueba-concepto/tesis-playwrightCrawler/es/../log/sites-es-20260223_run.log
+Loading metadata links...
+Found 361 metadata links
+
+Crawling all 361 seeds... (run_id=sites-es-20260223)
+Write operations will be queued to Redis → neo4j_writes_es
+=== START run_id=sites-es-20260223 seeds=361 concurrency=12 max_depth=10 external_max_hops=2 ===
+
+=== Seed 1/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/ES_SPESA_1 ===
+
+=== Seed 2/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/{B0626A1A- ===
+
+=== Seed 3/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/GLG_IET_BT ===
+
+=== Seed 4/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/7f592701-a ===
+
+=== Seed 5/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/0caeb014-8 ===
+
+=== Seed 6/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/4248f2e8-4 ===
+
+=== Seed 7/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/7ae2baac-8 ===
+
+=== Seed 8/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/d1a50968-0 ===
+
+=== Seed 9/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/0a789324-6 ===
+
+=== Seed 10/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/f5842abc-e ===
+
+=== Seed 11/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/12118966-5 ===
+
+=== Seed 12/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/e097412c-1 ===
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/0caeb014-8a1e-4316-94d4-b712d6
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/12118966-57b2-4ff1-b2e4-fbb219
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/ES_SPESA_1125MSRIE_20111201
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/%7BB0626A1A-4607-401E-8E0F-1A3
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/7ae2baac-8bc2-48b3-93c5-facccd
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/7f592701-ab08-4fc8-8742-117668
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/GLG_IET_BTG500023029_20120330
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/4248f2e8-4431-4f99-a5be-2adedc
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/0a789324-6ab0-46a7-bccb-cadd08
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/f5842abc-e2c1-44f2-a6d0-353fb7
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/d1a50968-0a7c-47b4-8154-1e3443
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/e097412c-123f-4293-a24a-d1581f
+CRAWL depth=1 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/home
+CRAWL depth=1 hops=1 site=www.mitma.gob.es url=https://www.mitma.gob.es/
+CRAWL depth=1 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/catalogue
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search", waiting until "networkidle"
+
+ERROR depth=2 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search", waiting until "networkidle"
+
+ERROR depth=2 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map", waiting until "networkidle"
+
+ERROR depth=2 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map", waiting until "networkidle"
+
+ERROR depth=2 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any=", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any=", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any=", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any=", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any=", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any=", waiting until "networkidle"
+
+ERROR depth=2 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any=", waiting until "networkidle"
+
+ERROR depth=2 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any=", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any=", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any=", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any=", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any=", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat=", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat=", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat=", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat=", waiting until "networkidle"
+
+
+=== Seed 13/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/81443ed6-4 ===
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat=", waiting until "networkidle"
+
+
+=== Seed 14/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/7f53781d-c ===
+
+=== Seed 15/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/c63e5a5d-9 ===
+
+=== Seed 16/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/649d2737-5 ===
+
+=== Seed 17/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/f7f91019-8 ===
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat=", waiting until "networkidle"
+
+
+=== Seed 18/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/a62d311f-5 ===
+ERROR depth=2 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat=", waiting until "networkidle"
+
+ERROR depth=2 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat=", waiting until "networkidle"
+
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat=", waiting until "networkidle"
+
+
+=== Seed 19/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/199ddce8-d ===
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat=", waiting until "networkidle"
+
+
+=== Seed 20/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/23e92aff-5 ===
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat=", waiting until "networkidle"
+
+
+=== Seed 21/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/c7e47f75-2 ===
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat= — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat=", waiting until "networkidle"
+
+
+=== Seed 22/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/c10602d5-c ===
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/a62d311f-5f8c-446f-b607-015aea
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/f7f91019-8b00-4d36-9679-d51a1c
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/c7e47f75-2bf8-4073-9a8e-90c0af
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/23e92aff-59ac-49bc-ac2f-5ef238
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/c10602d5-c444-47d7-bf25-d57176
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/649d2737-5c83-4e31-af10-9336f3
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/81443ed6-4a12-41f0-a46a-cbf6c2
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/199ddce8-d246-47d4-8ad9-7ba869
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/c63e5a5d-9b1f-4a90-894f-005ec5
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/7f53781d-c8c7-4505-b317-1638bb
+CRAWL depth=1 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search
+CRAWL depth=1 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/map
+CRAWL depth=1 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?any=
+CRAWL depth=2 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search?_cat=
+
+=== Seed 23/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/2e387f9f-b ===
+
+=== Seed 24/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/5f211212-e ===
+
+=== Seed 25/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/7afd2af2-3 ===
+
+=== Seed 26/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/4d1858d1-f ===
+
+=== Seed 27/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/9c7b1266-c ===
+
+=== Seed 28/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/db48f197-a ===
+
+=== Seed 29/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/1c6dff36-6 ===
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/9c7b1266-c7be-429b-a649-b4dc96
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/1c6dff36-6933-4cb4-b8fb-049657
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/db48f197-a17f-4f86-9e66-447da0
+
+=== Seed 30/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/da538917-e ===
+
+=== Seed 31/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/94cfee4b-8 ===
+
+=== Seed 32/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/aad12722-6 ===
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/7afd2af2-384f-4ffd-839d-f527a9
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/2e387f9f-b3b1-4ac1-926c-578c91
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/4d1858d1-f56f-4b9f-91af-8463b7
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/5f211212-ee36-4d49-acab-29f74b
+
+=== Seed 33/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/479bf81b-a ===
+
+=== Seed 34/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/b22aa451-b ===
+
+=== Seed 35/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/89a66971-5 ===
+
+=== Seed 36/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/53b65087-7 ===
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search", waiting until "networkidle"
+
+
+=== Seed 37/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/6f8137a6-8 ===
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search", waiting until "networkidle"
+
+
+=== Seed 38/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/9d020277-5 ===
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search", waiting until "networkidle"
+
+
+=== Seed 39/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/31e3bdc3-8 ===
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search", waiting until "networkidle"
+
+
+=== Seed 40/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/19b37dfa-3 ===
+ERROR depth=1 url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search — Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/search", waiting until "networkidle"
+
+
+=== Seed 41/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/md_ideeu_i ===
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/94cfee4b-82bf-451e-a622-9145e6
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/da538917-eafa-45a1-b67c-3ffab8
+
+=== Seed 42/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/b28939be-7 ===
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/aad12722-6967-4302-a53c-772e95
+
+=== Seed 43/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/md_ideeu_h ===
+
+=== Seed 44/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/md_ideeu_e ===
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/b22aa451-bed2-4150-bb44-d7bacb
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/89a66971-517d-4882-8b4a-cd044c
+
+=== Seed 45/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/md_ideeu_h ===
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/479bf81b-a9db-4ec2-b35f-14ed33
+
+=== Seed 46/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/md_ideeu_m ===
+
+=== Seed 47/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/md_ideeu_e ===
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/53b65087-717c-4296-8d80-c05253
+
+=== Seed 48/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/md_ideeu_p ===
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/31e3bdc3-8d82-46fb-910a-d7360f
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/9d020277-508e-4a2b-91ec-395d49
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/md_ideeu_inund_pluv_camb_clim_
+
+=== Seed 49/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/md_ideeu_o ===
+
+=== Seed 50/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/md_ideeu_o ===
+
+=== Seed 51/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/md_ideeu_o ===
+CRAWL depth=0 hops=0 site=www.idee.es url=https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/md_ideeu_hid_ag_subterraneas_e
+
+=== Seed 52/361: https://www.idee.es/csw-inspire-idee/srv/spa/catalog.search#/metadata/md_ideeu_r ===

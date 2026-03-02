@@ -10,15 +10,15 @@ if [ ! -f "$ARCHIVE" ]; then
 fi
 
 # Stop Neo4j if running
-if docker ps --format '{{.Names}}' | grep -q '^tesis-neo4j$'; then
+if podman ps --format '{{.Names}}' | grep -q '^tesis-neo4j$'; then
   echo "Stopping Neo4j..."
-  cd "$SCRIPT_DIR" && docker compose down
+  cd "$SCRIPT_DIR" && podman compose down
 fi
 
 ARCHIVE_ABS="$(cd "$(dirname "$ARCHIVE")" && pwd)/$(basename "$ARCHIVE")"
 
 echo "Importing $ARCHIVE_ABS -> volume 'tesis-neo4j-data'"
-docker run --rm \
+podman run --rm \
   -v tesis-neo4j-data:/data \
   -v "$(dirname "$ARCHIVE_ABS")":/backup \
   alpine sh -c "rm -rf /data/* && tar xzf /backup/$(basename "$ARCHIVE_ABS") -C /data"

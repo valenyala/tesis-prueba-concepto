@@ -1,0 +1,251 @@
+[mq_writer/ch] Redis reconnect attempt 1/20…
+[mq_writer/ch] Redis reconnected.
+[mq_writer/ch] queue=neo4j_writes_ch neo4j=bolt://localhost:7688
+[mq_writer/ch] Constraints ensured. Waiting for messages (no timeout)…
+[mq_writer/ch] 150 pages written to Neo4j
+[mq_writer/ch] 400 pages written to Neo4j
+[mq_writer/ch] 500 pages written to Neo4j
+[mq_writer/ch] 900 pages written to Neo4j
+[mq_writer/ch] 1100 pages written to Neo4j
+[mq_writer/ch] 1150 pages written to Neo4j
+[mq_writer/ch] 1300 pages written to Neo4j
+[mq_writer/ch] 1400 pages written to Neo4j
+[mq_writer/ch] 1500 pages written to Neo4j
+[mq_writer/ch] 1550 pages written to Neo4j
+[mq_writer/ch] 1650 pages written to Neo4j
+[mq_writer/ch] 1700 pages written to Neo4j
+[mq_writer/ch] 1750 pages written to Neo4j
+[mq_writer/ch] 1800 pages written to Neo4j
+[mq_writer/ch] 1950 pages written to Neo4j
+[mq_writer/ch] 2000 pages written to Neo4j
+[mq_writer/ch] 2300 pages written to Neo4j
+[mq_writer/ch] 2350 pages written to Neo4j
+[mq_writer/ch] 2600 pages written to Neo4j
+[mq_writer/ch] 2650 pages written to Neo4j
+[mq_writer/ch] 2700 pages written to Neo4j
+[mq_writer/ch] 2900 pages written to Neo4j
+[mq_writer/ch] 3000 pages written to Neo4j
+[mq_writer/ch] 3150 pages written to Neo4j
+[mq_writer/ch] 3300 pages written to Neo4j
+[mq_writer/ch] 3500 pages written to Neo4j
+[mq_writer/ch] 3950 pages written to Neo4j
+[mq_writer/ch] 4050 pages written to Neo4j
+[mq_writer/ch] 4100 pages written to Neo4j
+[mq_writer/ch] 4250 pages written to Neo4j
+[mq_writer/ch] 4350 pages written to Neo4j
+[mq_writer/ch] 4500 pages written to Neo4j
+[mq_writer/ch] 4600 pages written to Neo4j
+[mq_writer/ch] 4700 pages written to Neo4j
+[mq_writer/ch] 4750 pages written to Neo4j
+[mq_writer/ch] 5050 pages written to Neo4j
+[mq_writer/ch] 5300 pages written to Neo4j
+[mq_writer/ch] 5400 pages written to Neo4j
+[mq_writer/ch] 5650 pages written to Neo4j
+[mq_writer/ch] Crawl complete. 6529 messages processed. Printing stats…
+
+==================================================
+SITE GRAPH STATISTICS — run: run_20260223
+==================================================
+Total sites (nodes):          166
+Total site-to-site edges:     216
+Total page-level links:       10161
+Total pages crawled:          1646
+
+Sites by pages crawled:
+  www.geocat.ch: 1604 pages
+  raster.sitg.ge.ch: 11 pages
+  data.geo.admin.ch: 7 pages
+  www.geo.admin.ch: 4 pages
+  map.geo.admin.ch: 4 pages
+  viewer.swissgeol.ch: 3 pages
+  www.jura.ch: 1 pages
+  geo.jura.ch: 1 pages
+  info.geocat.ch: 1 pages
+  wms.geo.admin.ch: 1 pages
+
+Strongest site-to-site connections:
+  www.geocat.ch -> www.facebook.com: 1240 links
+  www.geocat.ch -> twitter.com: 1240 links
+  www.geocat.ch -> www.gis-daten.ch: 721 links
+  www.geocat.ch -> info.geocat.ch: 649 links
+  www.geocat.ch -> www.geocat.admin.ch: 646 links
+  www.geocat.ch -> github.com: 634 links
+  www.geocat.ch -> geodienste.ch: 481 links
+  www.geocat.ch -> geobasisdaten.ch: 366 links
+  www.geocat.ch -> map.geo.admin.ch: 335 links
+  www.geocat.ch -> geo.jura.ch: 267 links
+
+Most connected sites (by out-degree):
+  www.geocat.ch: links to 88 other sites
+  www.openstreetmap.org: links to 25 other sites
+  www.geo.admin.ch: links to 14 other sites
+  leafletjs.com: links to 14 other sites
+  survey123.arcgis.com: links to 11 other sites
+
+Most referenced sites (by in-degree):
+  www.geocat.ch: referenced by 10 other sites
+  twitter.com: referenced by 6 other sites
+  www.facebook.com: referenced by 6 other sites
+  github.com: referenced by 4 other sites
+  www.swisstopo.admin.ch: referenced by 4 other sites
+[mq_writer/ch] Exited. Total processed: 6529
+[mq_writer/ch] Redis reconnect attempt 1/20…
+[mq_writer/ch] Redis reconnected.
+[mq_writer/ch] queue=neo4j_writes_ch neo4j=bolt://localhost:7688
+[mq_writer/ch] Constraints ensured. Waiting for messages (no timeout)…
+[mq_writer/ch] Crawl complete. 0 messages processed. Printing stats…
+
+==================================================
+SITE GRAPH STATISTICS — run: run_20260223_16:11:01
+==================================================
+Total sites (nodes):          146
+Total site-to-site edges:     179
+Total page-level links:       2438
+Total pages crawled:          530
+
+Sites by pages crawled:
+  www.geocat.ch: 491 pages
+  raster.sitg.ge.ch: 11 pages
+  geodienste.ch: 8 pages
+  data.geo.admin.ch: 7 pages
+  viewer.swissgeol.ch: 3 pages
+  leafletjs.com: 1 pages
+  www.openstreetmap.org: 1 pages
+  geoshop.lisag.ch: 1 pages
+  www.gis-daten.ch: 1 pages
+  info.geocat.ch: 1 pages
+
+Strongest site-to-site connections:
+  www.geocat.ch -> www.facebook.com: 291 links
+  www.geocat.ch -> twitter.com: 291 links
+  www.geocat.ch -> info.geocat.ch: 156 links
+  www.geocat.ch -> www.geocat.admin.ch: 156 links
+  www.geocat.ch -> github.com: 149 links
+  www.geocat.ch -> www.gis-daten.ch: 117 links
+  geodienste.ch -> opendata.swiss: 111 links
+  www.geocat.ch -> geodienste.ch: 93 links
+  www.geocat.ch -> geobasisdaten.ch: 89 links
+  kgk-cgc.atlassian.net -> www.geocat.ch: 54 links
+
+Most connected sites (by out-degree):
+  www.geocat.ch: links to 57 other sites
+  geodienste.ch: links to 30 other sites
+  www.openstreetmap.org: links to 25 other sites
+  leafletjs.com: links to 14 other sites
+  cesium.com: links to 11 other sites
+
+Most referenced sites (by in-degree):
+  www.geocat.ch: referenced by 6 other sites
+  github.com: referenced by 6 other sites
+  twitter.com: referenced by 4 other sites
+  www.facebook.com: referenced by 3 other sites
+  opendata.swiss: referenced by 3 other sites
+[mq_writer/ch] Exited. Total processed: 0
+[mq_writer/ch] Redis reconnect attempt 1/20…
+[mq_writer/ch] Redis reconnected.
+[mq_writer/ch] queue=neo4j_writes_ch neo4j=bolt://localhost:7688
+[mq_writer/ch] Constraints ensured. Waiting for messages (no timeout)…
+[mq_writer/ch] 50 pages written to Neo4j
+[mq_writer/ch] 200 pages written to Neo4j
+[mq_writer/ch] 300 pages written to Neo4j
+[mq_writer/ch] 400 pages written to Neo4j
+[mq_writer/ch] 450 pages written to Neo4j
+[mq_writer/ch] 550 pages written to Neo4j
+[mq_writer/ch] 700 pages written to Neo4j
+[mq_writer/ch] 1000 pages written to Neo4j
+[mq_writer/ch] 1100 pages written to Neo4j
+[mq_writer/ch] 1150 pages written to Neo4j
+[mq_writer/ch] 1200 pages written to Neo4j
+[mq_writer/ch] 1250 pages written to Neo4j
+[mq_writer/ch] 1450 pages written to Neo4j
+[mq_writer/ch] 1500 pages written to Neo4j
+[mq_writer/ch] 1550 pages written to Neo4j
+[mq_writer/ch] 1700 pages written to Neo4j
+[mq_writer/ch] 1800 pages written to Neo4j
+[mq_writer/ch] 2050 pages written to Neo4j
+[mq_writer/ch] 2250 pages written to Neo4j
+[mq_writer/ch] 2350 pages written to Neo4j
+[mq_writer/ch] 2450 pages written to Neo4j
+[mq_writer/ch] 2500 pages written to Neo4j
+[mq_writer/ch] 2550 pages written to Neo4j
+[mq_writer/ch] 2650 pages written to Neo4j
+[mq_writer/ch] 2800 pages written to Neo4j
+[mq_writer/ch] 2850 pages written to Neo4j
+[mq_writer/ch] 2900 pages written to Neo4j
+[mq_writer/ch] 3000 pages written to Neo4j
+[mq_writer/ch] 3100 pages written to Neo4j
+[mq_writer/ch] 3350 pages written to Neo4j
+[mq_writer/ch] 3450 pages written to Neo4j
+[mq_writer/ch] 3500 pages written to Neo4j
+[mq_writer/ch] 3600 pages written to Neo4j
+[mq_writer/ch] 3900 pages written to Neo4j
+[mq_writer/ch] 3950 pages written to Neo4j
+[mq_writer/ch] 4050 pages written to Neo4j
+[mq_writer/ch] 4250 pages written to Neo4j
+[mq_writer/ch] 4300 pages written to Neo4j
+[mq_writer/ch] 4350 pages written to Neo4j
+[mq_writer/ch] 4450 pages written to Neo4j
+[mq_writer/ch] 4500 pages written to Neo4j
+[mq_writer/ch] 4550 pages written to Neo4j
+[mq_writer/ch] 4600 pages written to Neo4j
+[mq_writer/ch] 4650 pages written to Neo4j
+[mq_writer/ch] 4700 pages written to Neo4j
+[mq_writer/ch] 4800 pages written to Neo4j
+[mq_writer/ch] 4900 pages written to Neo4j
+[mq_writer/ch] 5000 pages written to Neo4j
+[mq_writer/ch] 5200 pages written to Neo4j
+[mq_writer/ch] 5250 pages written to Neo4j
+[mq_writer/ch] 5350 pages written to Neo4j
+[mq_writer/ch] 5450 pages written to Neo4j
+[mq_writer/ch] 5650 pages written to Neo4j
+[mq_writer/ch] 5750 pages written to Neo4j
+[mq_writer/ch] 6000 pages written to Neo4j
+[mq_writer/ch] 6100 pages written to Neo4j
+[mq_writer/ch] Crawl complete. 6184 messages processed. Printing stats…
+
+==================================================
+SITE GRAPH STATISTICS — run: run_20260223_17:06:48
+==================================================
+Total sites (nodes):          171
+Total site-to-site edges:     215
+Total page-level links:       12433
+Total pages crawled:          2698
+
+Sites by pages crawled:
+  www.geocat.ch: 2657 pages
+  raster.sitg.ge.ch: 11 pages
+  data.geo.admin.ch: 7 pages
+  www.geo.admin.ch: 4 pages
+  map.geo.admin.ch: 4 pages
+  viewer.swissgeol.ch: 3 pages
+  www.openstreetmap.org: 1 pages
+  leafletjs.com: 1 pages
+  spatialreference.org: 1 pages
+  www.facebook.com: 1 pages
+
+Strongest site-to-site connections:
+  www.geocat.ch -> www.facebook.com: 2151 links
+  www.geocat.ch -> twitter.com: 2151 links
+  www.geocat.ch -> info.geocat.ch: 1097 links
+  www.geocat.ch -> www.geocat.admin.ch: 1095 links
+  www.geocat.ch -> github.com: 1086 links
+  www.geocat.ch -> www.gis-daten.ch: 706 links
+  www.geocat.ch -> geodienste.ch: 445 links
+  www.geocat.ch -> map.geo.admin.ch: 359 links
+  www.geocat.ch -> geobasisdaten.ch: 315 links
+  www.geocat.ch -> geo.jura.ch: 237 links
+
+Most connected sites (by out-degree):
+  www.geocat.ch: links to 79 other sites
+  www.openstreetmap.org: links to 25 other sites
+  www.facebook.com: links to 15 other sites
+  leafletjs.com: links to 14 other sites
+  www.geo.admin.ch: links to 14 other sites
+
+Most referenced sites (by in-degree):
+  www.geocat.ch: referenced by 9 other sites
+  twitter.com: referenced by 6 other sites
+  www.facebook.com: referenced by 5 other sites
+  github.com: referenced by 4 other sites
+  www.linkedin.com: referenced by 4 other sites
+[mq_writer/ch] Exited. Total processed: 6184

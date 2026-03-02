@@ -10,11 +10,11 @@ NEO4J_USER="neo4j"
 NEO4J_PASSWORD="tesis_password"
 
 cypher() {
-  docker exec "$CONTAINER_NAME" cypher-shell -u "$NEO4J_USER" -p "$NEO4J_PASSWORD" --format plain "$1"
+  podman exec "$CONTAINER_NAME" cypher-shell -u "$NEO4J_USER" -p "$NEO4J_PASSWORD" --format plain "$1"
 }
 
 # Check that the container is running
-if ! docker ps --format '{{.Names}}' | grep -q "^${CONTAINER_NAME}$"; then
+if ! podman ps --format '{{.Names}}' | grep -q "^${CONTAINER_NAME}$"; then
   echo "ERROR: Container '$CONTAINER_NAME' is not running. Start it first with ./start.sh"
   exit 1
 fi

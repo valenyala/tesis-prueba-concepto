@@ -1,0 +1,456 @@
+# Web Structure Mining — Catalog Comparison
+
+Generated: 2026-03-02 11:38:43
+
+| | ES (IDEE) | CH (geocat.ch) |
+|---|---|---|
+| Run ID | `run_20260223` | `run_20260223_17:06:48` |
+| Neo4j port | 7687 | 7688 |
+
+## 1. Structural Overview
+
+> Site-level graph: one node per domain, weighted directed edges = page-level link counts between domains.
+
+| Metric                               | ES       | CH        |
+| ------------------------------------ | -------- | --------- |
+| Nodes (sites)                        | 67       | 171       |
+| Edges (site-to-site links)           | 66       | 215       |
+| Total link weight (page-level links) | 9,540    | 12,433    |
+| Total pages crawled                  | 363      | 2698      |
+| Graph density                        | 0.014925 | 0.007396  |
+| Reciprocity (mutual edges)           | 0.0000   | 0.0372    |
+| Self-loops (sites → themselves)      | 0        | 0         |
+| Avg clustering coeff (undirected)    | 0.000000 | 0.051964  |
+| Degree assortativity                 | nan      | -0.303755 |
+
+## 2. Degree Distribution
+
+> Web graphs (Barabási-Albert model) typically show power-law in-degree distributions (α ≈ 2–3). Power-law α estimated by maximum-likelihood (Clauset et al.).
+
+| Metric                             | ES       | CH       |
+| ---------------------------------- | -------- | -------- |
+| Avg weighted in-degree             | 142.39   | 72.71    |
+| Avg weighted out-degree            | 142.39   | 72.71    |
+| Max weighted in-degree             | 1086     | 2160     |
+| Max weighted out-degree            | 9540     | 12116    |
+| Avg unweighted in-degree           | 0.99     | 1.26     |
+| Max unweighted in-degree           | 1        | 9        |
+| Max unweighted out-degree          | 66       | 79       |
+| In-degree variance (w)             | 65089.70 | 77771.63 |
+| Power-law α (unweighted in-degree) | N/A      | 9.223    |
+| Gini (in-degree)                   | 0.0149   | 0.1901   |
+| C10 in-degree (top 10% hold)       | 10.61%   | 28.37%   |
+
+### Top sites by weighted in-degree
+
+**ES:**
+
+| #  | Site                           | Incoming link weight |
+| -- | ------------------------------ | -------------------- |
+| 1  | twitter.com                    | 1086                 |
+| 2  | www.facebook.com               | 1086                 |
+| 3  | www.mapama.gob.es              | 854                  |
+| 4  | www.geo.euskadi.eus            | 740                  |
+| 5  | www.mitma.gob.es               | 724                  |
+| 6  | idena.navarra.es               | 504                  |
+| 7  | mapas-gis-inter.carm.es        | 410                  |
+| 8  | icearagon.aragon.es            | 366                  |
+| 9  | inspire-geoportal.ec.europa.eu | 362                  |
+| 10 | catalogo.idecanarias.es        | 362                  |
+| 11 | idecyl.jcyl.es                 | 362                  |
+| 12 | ide.cat                        | 362                  |
+| 13 | idem.madrid.org                | 362                  |
+| 14 | ideas.asturias.es              | 362                  |
+| 15 | github.com                     | 362                  |
+
+**CH:**
+
+| #  | Site                | Incoming link weight |
+| -- | ------------------- | -------------------- |
+| 1  | twitter.com         | 2160                 |
+| 2  | www.facebook.com    | 2159                 |
+| 3  | github.com          | 1105                 |
+| 4  | info.geocat.ch      | 1097                 |
+| 5  | www.geocat.admin.ch | 1095                 |
+| 6  | www.gis-daten.ch    | 706                  |
+| 7  | geodienste.ch       | 445                  |
+| 8  | map.geo.admin.ch    | 361                  |
+| 9  | geobasisdaten.ch    | 315                  |
+| 10 | geo.jura.ch         | 237                  |
+| 11 | data.geo.admin.ch   | 222                  |
+| 12 | geoshop.lisag.ch    | 221                  |
+| 13 | www.jura.ch         | 203                  |
+| 14 | maps.fr.ch          | 158                  |
+| 15 | geoservices.jura.ch | 112                  |
+
+### Top sites by weighted out-degree
+
+**ES:**
+
+| #  | Site                           | Outgoing link weight |
+| -- | ------------------------------ | -------------------- |
+| 1  | www.idee.es                    | 9540                 |
+| 2  | www.mitma.gob.es               | 0                    |
+| 3  | twitter.com                    | 0                    |
+| 4  | www.facebook.com               | 0                    |
+| 5  | inspire-geoportal.ec.europa.eu | 0                    |
+| 6  | www.mapama.gob.es              | 0                    |
+| 7  | icearagon.aragon.es            | 0                    |
+| 8  | catalogo.idecanarias.es        | 0                    |
+| 9  | idecyl.jcyl.es                 | 0                    |
+| 10 | ide.cat                        | 0                    |
+| 11 | idena.navarra.es               | 0                    |
+| 12 | idem.madrid.org                | 0                    |
+| 13 | www.geo.euskadi.eus            | 0                    |
+| 14 | ideas.asturias.es              | 0                    |
+| 15 | mapas-gis-inter.carm.es        | 0                    |
+
+**CH:**
+
+| #  | Site                   | Outgoing link weight |
+| -- | ---------------------- | -------------------- |
+| 1  | www.geocat.ch          | 12116                |
+| 2  | www.geo.admin.ch       | 49                   |
+| 3  | www.openstreetmap.org  | 42                   |
+| 4  | leafletjs.com          | 30                   |
+| 5  | map.koeniz.ch          | 28                   |
+| 6  | raster.sitg.ge.ch      | 23                   |
+| 7  | www.swissgeol.ch       | 22                   |
+| 8  | map.geo.admin.ch       | 20                   |
+| 9  | survey123.arcgis.com   | 20                   |
+| 10 | www.facebook.com       | 19                   |
+| 11 | data.geo.admin.ch      | 19                   |
+| 12 | cesium.com             | 13                   |
+| 13 | info.geocat.ch         | 11                   |
+| 14 | www.swisstopo.admin.ch | 10                   |
+| 15 | viewer.swissgeol.ch    | 6                    |
+
+## 3. Connectivity Analysis
+
+> The **bow-tie model** (Broder et al. 2000) partitions the Web into: CORE (giant SCC), IN (nodes reaching the core), OUT (nodes reachable from core), tendrils, and disconnected nodes.
+
+| Metric                              | ES     | CH     |
+| ----------------------------------- | ------ | ------ |
+| Isolates (no edges)                 | 0      | 0      |
+| Weakly connected components (WCC)   | 1      | 1      |
+| Largest WCC (nodes)                 | 67     | 171    |
+| WCC coverage (% of nodes)           | 100.0% | 100.0% |
+| Strongly connected components (SCC) | 67     | 158    |
+| Largest SCC / CORE (nodes)          | 1      | 14     |
+| SCC coverage (% of nodes)           | 1.5%   | 8.2%   |
+
+### Bow-tie decomposition
+
+| Component        | ES nodes | CH nodes |
+| ---------------- | -------- | -------- |
+| CORE (giant SCC) | 1        | 14       |
+| IN component     | 1        | 0        |
+| OUT component    | 0        | 157      |
+| Tendrils         | 65       | 0        |
+| Disconnected     | 0        | 0        |
+
+## 4. PageRank (α = 0.85, weighted)
+
+> PageRank models a random web surfer following links. Higher score = more globally influential site. Gini measures inequality of influence distribution (1 = all influence concentrated in one node).
+
+| Metric                      | ES     | CH     |
+| --------------------------- | ------ | ------ |
+| Gini coefficient (PageRank) | 0.0095 | 0.0758 |
+| C10: top 10% sites hold     | 11.03% | 15.78% |
+| C20: top 20% sites hold     | 21.68% | 26.24% |
+
+**Top 15 by PageRank — ES:**
+
+| #  | Site                           | PageRank |
+| -- | ------------------------------ | -------- |
+| 1  | twitter.com                    | 0.016164 |
+| 2  | www.facebook.com               | 0.016164 |
+| 3  | www.mapama.gob.es              | 0.015860 |
+| 4  | www.geo.euskadi.eus            | 0.015710 |
+| 5  | www.mitma.gob.es               | 0.015689 |
+| 6  | idena.navarra.es               | 0.015400 |
+| 7  | mapas-gis-inter.carm.es        | 0.015277 |
+| 8  | icearagon.aragon.es            | 0.015219 |
+| 9  | inspire-geoportal.ec.europa.eu | 0.015214 |
+| 10 | catalogo.idecanarias.es        | 0.015214 |
+| 11 | idecyl.jcyl.es                 | 0.015214 |
+| 12 | ide.cat                        | 0.015214 |
+| 13 | idem.madrid.org                | 0.015214 |
+| 14 | ideas.asturias.es              | 0.015214 |
+| 15 | github.com                     | 0.015214 |
+
+**Top 15 by PageRank — CH:**
+
+| #  | Site                   | PageRank |
+| -- | ---------------------- | -------- |
+| 1  | www.geocat.ch          | 0.020388 |
+| 2  | github.com             | 0.011279 |
+| 3  | twitter.com            | 0.011010 |
+| 4  | www.facebook.com       | 0.010924 |
+| 5  | www.geo.admin.ch       | 0.009600 |
+| 6  | geoportal.koeniz.ch    | 0.008235 |
+| 7  | www.linkedin.com       | 0.008131 |
+| 8  | www.openstreetmap.org  | 0.007898 |
+| 9  | cesium.com             | 0.007500 |
+| 10 | www.swissgeol.ch       | 0.007500 |
+| 11 | leafletjs.com          | 0.007279 |
+| 12 | www.swisstopo.admin.ch | 0.007178 |
+| 13 | www.xing.com           | 0.007031 |
+| 14 | api.whatsapp.com       | 0.007031 |
+| 15 | info.geocat.ch         | 0.006798 |
+
+## 5. HITS — Hubs and Authorities
+
+> **Hubs** link to many authoritative sites (aggregators/directories). **Authorities** are cited by many hubs (trusted data/service endpoints).
+
+**ES — Top Hubs:**
+
+| #  | Site                           | Hub score |
+| -- | ------------------------------ | --------- |
+| 1  | www.idee.es                    | 1.000000  |
+| 2  | www.mitma.gob.es               | 0.000000  |
+| 3  | twitter.com                    | 0.000000  |
+| 4  | www.facebook.com               | 0.000000  |
+| 5  | inspire-geoportal.ec.europa.eu | 0.000000  |
+| 6  | www.mapama.gob.es              | 0.000000  |
+| 7  | icearagon.aragon.es            | 0.000000  |
+| 8  | catalogo.idecanarias.es        | 0.000000  |
+| 9  | idecyl.jcyl.es                 | 0.000000  |
+| 10 | ide.cat                        | 0.000000  |
+| 11 | idena.navarra.es               | 0.000000  |
+| 12 | idem.madrid.org                | 0.000000  |
+| 13 | www.geo.euskadi.eus            | 0.000000  |
+| 14 | ideas.asturias.es              | 0.000000  |
+| 15 | mapas-gis-inter.carm.es        | 0.000000  |
+
+**ES — Top Authorities:**
+
+| #  | Site                           | Authority score |
+| -- | ------------------------------ | --------------- |
+| 1  | twitter.com                    | 1.000000        |
+| 2  | www.facebook.com               | 1.000000        |
+| 3  | www.mapama.gob.es              | 0.786372        |
+| 4  | www.geo.euskadi.eus            | 0.681400        |
+| 5  | www.mitma.gob.es               | 0.666667        |
+| 6  | idena.navarra.es               | 0.464088        |
+| 7  | mapas-gis-inter.carm.es        | 0.377532        |
+| 8  | icearagon.aragon.es            | 0.337017        |
+| 9  | inspire-geoportal.ec.europa.eu | 0.333333        |
+| 10 | catalogo.idecanarias.es        | 0.333333        |
+| 11 | idecyl.jcyl.es                 | 0.333333        |
+| 12 | ide.cat                        | 0.333333        |
+| 13 | idem.madrid.org                | 0.333333        |
+| 14 | ideas.asturias.es              | 0.333333        |
+| 15 | github.com                     | 0.333333        |
+
+**CH — Top Hubs:**
+
+| #  | Site                   | Hub score |
+| -- | ---------------------- | --------- |
+| 1  | www.geocat.ch          | 1.000000  |
+| 2  | leafletjs.com          | 0.001307  |
+| 3  | www.geo.admin.ch       | 0.001222  |
+| 4  | data.geo.admin.ch      | 0.000540  |
+| 5  | www.swisstopo.admin.ch | 0.000458  |
+| 6  | info.geocat.ch         | 0.000337  |
+| 7  | cesium.com             | 0.000230  |
+| 8  | map.koeniz.ch          | 0.000027  |
+| 9  | map.geo.admin.ch       | 0.000022  |
+| 10 | survey123.arcgis.com   | 0.000011  |
+| 11 | www.openstreetmap.org  | 0.000009  |
+| 12 | www.swissgeol.ch       | 0.000005  |
+| 13 | raster.sitg.ge.ch      | 0.000001  |
+| 14 | spatialreference.org   | 0.000000  |
+| 15 | www.facebook.com       | 0.000000  |
+
+**CH — Top Authorities:**
+
+| #  | Site                | Authority score |
+| -- | ------------------- | --------------- |
+| 1  | twitter.com         | 1.000000        |
+| 2  | www.facebook.com    | 0.999999        |
+| 3  | info.geocat.ch      | 0.509993        |
+| 4  | www.geocat.admin.ch | 0.509064        |
+| 5  | github.com          | 0.504888        |
+| 6  | www.gis-daten.ch    | 0.328218        |
+| 7  | geodienste.ch       | 0.206880        |
+| 8  | map.geo.admin.ch    | 0.166899        |
+| 9  | geobasisdaten.ch    | 0.146443        |
+| 10 | geo.jura.ch         | 0.110181        |
+| 11 | data.geo.admin.ch   | 0.103207        |
+| 12 | geoshop.lisag.ch    | 0.102743        |
+| 13 | www.jura.ch         | 0.094374        |
+| 14 | maps.fr.ch          | 0.073454        |
+| 15 | geoservices.jura.ch | 0.052069        |
+
+## 6. Betweenness Centrality
+
+> Betweenness identifies **bridge nodes** — sites that lie on many shortest paths between other sites. High betweenness = structural broker or gateway in the catalog's link network.
+
+**ES — Top 15 by betweenness:**
+
+| #  | Site                           | Betweenness (norm.) |
+| -- | ------------------------------ | ------------------- |
+| 1  | www.idee.es                    | 0.000000            |
+| 2  | www.mitma.gob.es               | 0.000000            |
+| 3  | twitter.com                    | 0.000000            |
+| 4  | www.facebook.com               | 0.000000            |
+| 5  | inspire-geoportal.ec.europa.eu | 0.000000            |
+| 6  | www.mapama.gob.es              | 0.000000            |
+| 7  | icearagon.aragon.es            | 0.000000            |
+| 8  | catalogo.idecanarias.es        | 0.000000            |
+| 9  | idecyl.jcyl.es                 | 0.000000            |
+| 10 | ide.cat                        | 0.000000            |
+| 11 | idena.navarra.es               | 0.000000            |
+| 12 | idem.madrid.org                | 0.000000            |
+| 13 | www.geo.euskadi.eus            | 0.000000            |
+| 14 | ideas.asturias.es              | 0.000000            |
+| 15 | mapas-gis-inter.carm.es        | 0.000000            |
+
+**CH — Top 15 by betweenness:**
+
+| #  | Site                   | Betweenness (norm.) |
+| -- | ---------------------- | ------------------- |
+| 1  | www.geocat.ch          | 0.061434            |
+| 2  | www.swisstopo.admin.ch | 0.016046            |
+| 3  | data.geo.admin.ch      | 0.014654            |
+| 4  | leafletjs.com          | 0.013122            |
+| 5  | www.openstreetmap.org  | 0.011800            |
+| 6  | survey123.arcgis.com   | 0.011208            |
+| 7  | map.koeniz.ch          | 0.010094            |
+| 8  | cesium.com             | 0.008249            |
+| 9  | www.facebook.com       | 0.007309            |
+| 10 | viewer.swissgeol.ch    | 0.005674            |
+| 11 | map.geo.admin.ch       | 0.003829            |
+| 12 | www.geo.admin.ch       | 0.003620            |
+| 13 | www.swissgeol.ch       | 0.002436            |
+| 14 | spatialreference.org   | 0.000940            |
+| 15 | raster.sitg.ge.ch      | 0.000905            |
+
+## 7. Inequality & Link Concentration
+
+> Measures whether the catalog's link graph is dominated by a few highly-linked sites (hub-and-spoke topology) or has a more distributed structure.
+
+**Strongest site-to-site connections — ES:**
+
+| Source      | Target                         | Link count |
+| ----------- | ------------------------------ | ---------- |
+| www.idee.es | twitter.com                    | 1086       |
+| www.idee.es | www.facebook.com               | 1086       |
+| www.idee.es | www.mapama.gob.es              | 854        |
+| www.idee.es | www.geo.euskadi.eus            | 740        |
+| www.idee.es | www.mitma.gob.es               | 724        |
+| www.idee.es | idena.navarra.es               | 504        |
+| www.idee.es | mapas-gis-inter.carm.es        | 410        |
+| www.idee.es | icearagon.aragon.es            | 366        |
+| www.idee.es | inspire-geoportal.ec.europa.eu | 362        |
+| www.idee.es | catalogo.idecanarias.es        | 362        |
+| www.idee.es | idecyl.jcyl.es                 | 362        |
+| www.idee.es | ide.cat                        | 362        |
+| www.idee.es | idem.madrid.org                | 362        |
+| www.idee.es | ideas.asturias.es              | 362        |
+| www.idee.es | github.com                     | 362        |
+
+**Strongest site-to-site connections — CH:**
+
+| Source        | Target              | Link count |
+| ------------- | ------------------- | ---------- |
+| www.geocat.ch | twitter.com         | 2151       |
+| www.geocat.ch | www.facebook.com    | 2151       |
+| www.geocat.ch | info.geocat.ch      | 1097       |
+| www.geocat.ch | www.geocat.admin.ch | 1095       |
+| www.geocat.ch | github.com          | 1086       |
+| www.geocat.ch | www.gis-daten.ch    | 706        |
+| www.geocat.ch | geodienste.ch       | 445        |
+| www.geocat.ch | map.geo.admin.ch    | 359        |
+| www.geocat.ch | geobasisdaten.ch    | 315        |
+| www.geocat.ch | geo.jura.ch         | 237        |
+| www.geocat.ch | data.geo.admin.ch   | 222        |
+| www.geocat.ch | geoshop.lisag.ch    | 221        |
+| www.geocat.ch | www.jura.ch         | 203        |
+| www.geocat.ch | maps.fr.ch          | 158        |
+| www.geocat.ch | geoservices.jura.ch | 112        |
+
+## 8. Crawl Coverage
+
+> Pages actively crawled per site (depth-limited traversal). Sites with 0 pages_crawled were discovered via outgoing links but not entered.
+
+| Metric                                    | ES      | CH     |
+| ----------------------------------------- | ------- | ------ |
+| Total pages crawled                       | 363     | 2698   |
+| Avg pages per site                        | 5.4     | 15.8   |
+| Internal link ratio (to/from seed domain) | 100.00% | 97.95% |
+
+**Top sites by pages crawled — ES:**
+
+| # | Site             | Pages crawled |
+| - | ---------------- | ------------- |
+| 1 | www.idee.es      | 362           |
+| 2 | www.mitma.gob.es | 1             |
+
+**Top sites by pages crawled — CH:**
+
+| #  | Site                   | Pages crawled |
+| -- | ---------------------- | ------------- |
+| 1  | www.geocat.ch          | 2657          |
+| 2  | raster.sitg.ge.ch      | 11            |
+| 3  | data.geo.admin.ch      | 7             |
+| 4  | map.geo.admin.ch       | 4             |
+| 5  | www.geo.admin.ch       | 4             |
+| 6  | viewer.swissgeol.ch    | 3             |
+| 7  | info.geocat.ch         | 1             |
+| 8  | www.facebook.com       | 1             |
+| 9  | wms.geo.admin.ch       | 1             |
+| 10 | leafletjs.com          | 1             |
+| 11 | www.openstreetmap.org  | 1             |
+| 12 | spatialreference.org   | 1             |
+| 13 | map.koeniz.ch          | 1             |
+| 14 | survey123.arcgis.com   | 1             |
+| 15 | www.swisstopo.admin.ch | 1             |
+
+## 9. Cross-Catalog Comparison
+
+> Sites (domains) appearing in both catalogs indicate shared infrastructure, standards bodies, or common external resources.
+
+| Metric                                      | Value  |
+| ------------------------------------------- | ------ |
+| Sites in ES only                            | 62     |
+| Sites in CH only                            | 166    |
+| Sites in both catalogs                      | 5      |
+| Total union of sites                        | 233    |
+| Jaccard similarity of site sets             | 0.0215 |
+| PageRank Spearman rank corr. (shared sites) | 0.3000 |
+
+### Sites appearing in both catalogs (by avg PageRank)
+
+| # | Site                           | PageRank (ES) | PageRank (CH) |
+| - | ------------------------------ | ------------- | ------------- |
+| 1 | twitter.com                    | 0.016164      | 0.011010      |
+| 2 | www.facebook.com               | 0.016164      | 0.010924      |
+| 3 | github.com                     | 0.015214      | 0.011279      |
+| 4 | creativecommons.org            | 0.014862      | 0.006218      |
+| 5 | inspire-geoportal.ec.europa.eu | 0.015214      | 0.005754      |
+
+## 10. Interpretation
+
+### ES (IDEE — Spain)
+
+- **Most influential site (PageRank):** `twitter.com` — receives the most link authority in the ES catalog network.
+- **Top hub:** `www.idee.es` — best aggregator pointing to authoritative ES data sources.
+- **Top authority:** `twitter.com` — most cited data/service endpoint within ES.
+- **Key bridge (betweenness):** `www.idee.es` — structural gateway connecting sub-clusters.
+- Graph density 0.014925 and Gini 0.0095 indicate moderate distribution of link authority.
+
+### CH (geocat.ch — Switzerland)
+
+- **Most influential site (PageRank):** `www.geocat.ch` — receives the most link authority in the CH catalog network.
+- **Top hub:** `www.geocat.ch` — best aggregator pointing to authoritative CH data sources.
+- **Top authority:** `twitter.com` — most cited data/service endpoint within CH.
+- **Key bridge (betweenness):** `www.geocat.ch` — structural gateway connecting sub-clusters.
+- Graph density 0.007396 and Gini 0.0758 indicate moderate distribution of link authority.
+
+### Cross-catalog
+
+- Jaccard similarity of site sets: **0.0215** — low overlap between the two catalog ecosystems.
+- **5 shared sites** appear in both catalogs. These likely represent pan-European standards bodies, INSPIRE infrastructure, or common data services.
+- PageRank rank correlation among shared sites: **0.3000** — catalogs assign different importance to shared sites.

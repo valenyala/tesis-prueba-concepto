@@ -1,0 +1,861 @@
+Logging to /home/valenyala/repos/tesis-prueba-concepto/tesis-playwrightCrawler/ch/../log/sites-ch-2026-02-23_run.log
+Loading metadata links...
+Found 1141 metadata links
+
+Crawling all 1141 seeds... (run_id=sites-ch-2026-02-23)
+Write operations will be queued to Redis → neo4j_writes_ch
+
+=== Processing seed 1/1141 ===
+
+=== Processing seed 2/1141 ===
+
+=== Processing seed 3/1141 ===
+
+=== Processing seed 4/1141 ===
+
+=== Processing seed 5/1141 ===
+
+=== Processing seed 6/1141 ===
+
+=== Processing seed 7/1141 ===
+
+=== Processing seed 8/1141 ===
+
+=== Processing seed 9/1141 ===
+
+=== Processing seed 10/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/b01523a1-9f61-... (site=https://www.geocat.ch)
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/16?redirectUrl... (site=https://www.geocat.ch)
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/aeb2991f-6cf7-... (site=https://www.geocat.ch)
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/26B3C08A-802C-... (site=https://www.geocat.ch)
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/48170588?redir... (site=https://www.geocat.ch)
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/2378981?redire... (site=https://www.geocat.ch)
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/48170948?redir... (site=https://www.geocat.ch)
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/B93B9169-90DF-... (site=https://www.geocat.ch)
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/48170988?redir... (site=https://www.geocat.ch)
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/DF4C2533-7F40-... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/home... (site=https://www.geocat.ch)
+
+=== Processing seed 11/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/930247D6-7773-... (site=https://www.geocat.ch)
+
+=== Processing seed 12/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/48170797?redir... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/home... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/home... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/home... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/home... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/search... (site=https://www.geocat.ch)
+
+=== Processing seed 13/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/3EAE8C51-5D34-... (site=https://www.geocat.ch)
+
+=== Processing seed 14/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/48170622?redir... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/map?tool=addLayers... (site=https://www.geocat.ch)
+
+=== Processing seed 15/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/44C5DC1A-BEF9-... (site=https://www.geocat.ch)
+[Depth 3] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/map?tool=addLayers... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/map?tool=addLayers... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/map?tool=addLayers... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/map?tool=addLayers... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/map?tool=addLayers... (site=https://www.geocat.ch)
+[Depth 3] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 2] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 1] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 1] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 1] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/map?tool=addLayers... (site=https://www.geocat.ch)
+
+=== Processing seed 16/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/48170659?redir... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+
+=== Processing seed 17/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/BEA6C8B2-C580-... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/map?tool=addLayers... (site=https://www.geocat.ch)
+[Depth 4] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#main-content... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/map?tool=addLayers... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+
+=== Processing seed 18/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/48170908?redir... (site=https://www.geocat.ch)
+[Depth 5] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/map?tool=addLayers... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/map?tool=addLayers... (site=https://www.geocat.ch)
+[Depth 6] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 3] Crawling: https://www.info.geocat.ch... (site=https://www.info.geocat.ch)
+[Depth 1] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/new.account... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/new.account... (site=https://www.geocat.ch)
+[Depth 6] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/new.account... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/new.account... (site=https://www.geocat.ch)
+[Depth 3] Crawling: https://www.geocat.ch/datahub/search/dataset/cca689db-e9a9-434c-a212-f9d81a39254... (site=https://www.geocat.ch)
+
+=== Processing seed 19/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/8270E41E-7853-... (site=https://www.geocat.ch)
+[Depth 4] Crawling: https://www.info.geocat.ch... (site=https://www.info.geocat.ch)
+[Depth 6] Crawling: https://www.geocat.ch/geonetwork/srv/eng/new.account... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+
+=== Processing seed 20/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/48170427?redir... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+[Depth 1] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/930247D6-7773-4AEE-ACDE-795AE46... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+
+=== Processing seed 21/1141 ===
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/930247D6-7773-4AEE-ACDE-795AE469A9E7/formatters/zip?withRelated=false&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/930247D6-7773-4AEE-ACDE-795AE469A9E7/formatters/zip?withRelated=false&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/930247D6-7773-4AEE-ACDE-795AE46... (site=https://www.geocat.ch)
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/C77E5372-AB90-... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/930247D6-7773-4AEE-ACDE-795AE469A9E7/formatters/xsl-view?output=pdf&language=eng&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/930247D6-7773-4AEE-ACDE-795AE469A9E7/formatters/xsl-view?output=pdf&language=eng&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/930247D6-7773-4AEE-ACDE-795AE46... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+  Error crawling https://info.geocat.ch/: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://info.geocat.ch/", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 4] Crawling: https://www.geocat.ch/datahub/search/dataset/dataset/73d37f2c-df4f-4596-83bd-63f... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/930247D6-7773-4AEE-ACDE-795AE46... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 6] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 5] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+  Error crawling https://info.geocat.ch/: Page.goto: Navigation to "https://info.geocat.ch/" is interrupted by another navigation to "chrome-error://chromewebdata/"
+Call log:
+  - navigating to "https://info.geocat.ch/", waiting until "networkidle"
+
+[Depth 5] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/datahub/search/: Page.goto: Navigation to "https://www.geocat.ch/datahub/search/" is interrupted by another navigation to "https://info.geocat.ch/de"
+Call log:
+  - navigating to "https://www.geocat.ch/datahub/search/", waiting until "networkidle"
+
+[Depth 5] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/930247D6-7773-4AEE-ACDE-795AE46... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 4] Crawling: https://map.geo.admin.ch/... (site=https://map.geo.admin.ch)
+[Depth 4] Crawling: https://www.geocat.ch/datahub/search/dataset/dataset/1ab39eeb-2426-4909-9aa8-8b1... (site=https://www.geocat.ch)
+  Error crawling https://map.geo.admin.ch/: Page.goto: Navigation to "https://map.geo.admin.ch/" is interrupted by another navigation to "chrome-error://chromewebdata/"
+Call log:
+  - navigating to "https://map.geo.admin.ch/", waiting until "networkidle"
+
+[Depth 4] Crawling: https://opendata.swiss/de... (site=https://opendata.swiss)
+  Error crawling https://opendata.swiss/de: Page.goto: Navigation to "https://opendata.swiss/de" is interrupted by another navigation to "https://map.geo.admin.ch/"
+Call log:
+  - navigating to "https://opendata.swiss/de", waiting until "networkidle"
+
+[Depth 4] Crawling: https://inspire-geoportal.ec.europa.eu/... (site=https://inspire-geoportal.ec.europa.eu)
+
+=== Processing seed 22/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/48170455?redir... (site=https://www.geocat.ch)
+  Error crawling https://inspire-geoportal.ec.europa.eu/: Page.goto: Navigation to "https://inspire-geoportal.ec.europa.eu/" is interrupted by another navigation to "https://opendata.swiss/de"
+Call log:
+  - navigating to "https://inspire-geoportal.ec.europa.eu/", waiting until "networkidle"
+
+[Depth 4] Crawling: https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/home... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/home: Page.goto: Navigation to "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/home" is interrupted by another navigation to "https://inspire-geoportal.ec.europa.eu/srv/eng/catalog.search"
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/home", waiting until "networkidle"
+
+[Depth 4] Crawling: https://info.geocat.ch/de/aktuelle-veranstaltungen... (site=https://info.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+
+=== Processing seed 23/1141 ===
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/D6EC968F-57BE-... (site=https://www.geocat.ch)
+
+=== Processing seed 24/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/48170488?redir... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+  Error crawling https://info.geocat.ch/de/aktuelle-veranstaltungen: Page.goto: Navigation to "https://info.geocat.ch/de/aktuelle-veranstaltungen" is interrupted by another navigation to "https://www.geocat.ch/geonetwork/srv/ger/catalog.search#/home"
+Call log:
+  - navigating to "https://info.geocat.ch/de/aktuelle-veranstaltungen", waiting until "networkidle"
+
+[Depth 4] Crawling: https://info.geocat.ch/de/nachrichten... (site=https://info.geocat.ch)
+[Depth 4] Crawling: https://www.geocat.ch/datahub/search/dataset/dataset/08a320e6-1e38-480d-a22d-2db... (site=https://www.geocat.ch)
+  Error crawling https://info.geocat.ch/de/nachrichten: Page.goto: Navigation to "https://info.geocat.ch/de/nachrichten" is interrupted by another navigation to "https://info.geocat.ch/de/aktuelle-veranstaltungen"
+Call log:
+  - navigating to "https://info.geocat.ch/de/nachrichten", waiting until "networkidle"
+
+[Depth 4] Crawling: https://info.geocat.ch/de/anmeldung-newsletter... (site=https://info.geocat.ch)
+  Error crawling https://info.geocat.ch/: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://info.geocat.ch/", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/3EAE8C51-5D34-4714-BC27-51F5339... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/3EAE8C51-5D34-4714-BC27-51F5339D19E9/formatters/zip?withRelated=false&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/3EAE8C51-5D34-4714-BC27-51F5339D19E9/formatters/zip?withRelated=false&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/3EAE8C51-5D34-4714-BC27-51F5339... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/3EAE8C51-5D34-4714-BC27-51F5339D19E9/formatters/xsl-view?output=pdf&language=eng&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/3EAE8C51-5D34-4714-BC27-51F5339D19E9/formatters/xsl-view?output=pdf&language=eng&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/3EAE8C51-5D34-4714-BC27-51F5339... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 4] Crawling: https://www.geocat.ch/datahub/search/dataset/dataset/828a2c09-7149-4e62-a8f3-7e6... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/3EAE8C51-5D34-4714-BC27-51F5339... (site=https://www.geocat.ch)
+[Depth 5] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#main-content... (site=https://www.geocat.ch)
+[Depth 4] Crawling: https://www.geocat.ch/datahub/search/dataset/dataset/34a3ee9d-9a2d-4c89-8af7-ea8... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/3EAE8C51-5D34-4714-BC27-51F5339... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+
+=== Processing seed 25/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/3AD20B7B-A8BB-... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/44C5DC1A-BEF9-47AD-9A86-0A239E7... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/44C5DC1A-BEF9-47AD-9A86-0A239E7404CC/formatters/zip?withRelated=false&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/44C5DC1A-BEF9-47AD-9A86-0A239E7404CC/formatters/zip?withRelated=false&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/44C5DC1A-BEF9-47AD-9A86-0A239E7... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/44C5DC1A-BEF9-47AD-9A86-0A239E7404CC/formatters/xsl-view?output=pdf&language=eng&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/44C5DC1A-BEF9-47AD-9A86-0A239E7404CC/formatters/xsl-view?output=pdf&language=eng&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/44C5DC1A-BEF9-47AD-9A86-0A239E7... (site=https://www.geocat.ch)
+
+=== Processing seed 26/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/48170619?redir... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+
+=== Processing seed 27/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/0E770AF7-C501-... (site=https://www.geocat.ch)
+[Depth 4] Crawling: https://www.geocat.ch/datahub/search/dataset/dataset/fefcc16e-d717-4d2f-b2f2-6cc... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/44C5DC1A-BEF9-47AD-9A86-0A239E7... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/BEA6C8B2-C580-4CA7-9432-40F33CE... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/BEA6C8B2-C580-4CA7-9432-40F33CE1FC06/formatters/zip?withRelated=false&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/BEA6C8B2-C580-4CA7-9432-40F33CE1FC06/formatters/zip?withRelated=false&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/BEA6C8B2-C580-4CA7-9432-40F33CE... (site=https://www.geocat.ch)
+[Depth 5] Crawling: https://www.geocat.ch... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/BEA6C8B2-C580-4CA7-9432-40F33CE1FC06/formatters/xsl-view?output=pdf&language=eng&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/BEA6C8B2-C580-4CA7-9432-40F33CE1FC06/formatters/xsl-view?output=pdf&language=eng&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/BEA6C8B2-C580-4CA7-9432-40F33CE... (site=https://www.geocat.ch)
+[Depth 4] Crawling: https://www.geocat.ch/datahub/search/dataset/dataset/b9a4e700-b633-45f8-8068-7b3... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/44C5DC1A-BEF9-47AD-9A86-0A239E7... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/BEA6C8B2-C580-4CA7-9432-40F33CE... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/8270E41E-7853-435B-AF51-2092A19... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/8270E41E-7853-435B-AF51-2092A19FF71C/formatters/zip?withRelated=false&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/8270E41E-7853-435B-AF51-2092A19FF71C/formatters/zip?withRelated=false&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/8270E41E-7853-435B-AF51-2092A19... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/8270E41E-7853-435B-AF51-2092A19FF71C/formatters/xsl-view?output=pdf&language=eng&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/8270E41E-7853-435B-AF51-2092A19FF71C/formatters/xsl-view?output=pdf&language=eng&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/8270E41E-7853-435B-AF51-2092A19... (site=https://www.geocat.ch)
+
+=== Processing seed 28/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/48170545?redir... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+[Depth 4] Crawling: https://www.geocat.ch/datahub/search/dataset/dataset/a8686f4b-c44c-40f4-9c2b-b49... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/C77E5372-AB90-47F1-9D97-59CD841... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/BEA6C8B2-C580-4CA7-9432-40F33CE... (site=https://www.geocat.ch)
+[Depth 5] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#main-header... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/C77E5372-AB90-47F1-9D97-59CD841CC248/formatters/zip?withRelated=false&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/C77E5372-AB90-47F1-9D97-59CD841CC248/formatters/zip?withRelated=false&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/C77E5372-AB90-47F1-9D97-59CD841... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/C77E5372-AB90-47F1-9D97-59CD841CC248/formatters/xsl-view?output=pdf&language=eng&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/C77E5372-AB90-47F1-9D97-59CD841CC248/formatters/xsl-view?output=pdf&language=eng&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/C77E5372-AB90-47F1-9D97-59CD841... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/8270E41E-7853-435B-AF51-2092A19... (site=https://www.geocat.ch)
+
+=== Processing seed 29/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/1285CD66-D0E3-... (site=https://www.geocat.ch)
+
+=== Processing seed 30/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/48170534?redir... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/C77E5372-AB90-47F1-9D97-59CD841... (site=https://www.geocat.ch)
+[Depth 4] Crawling: https://www.geocat.ch/datahub/search/dataset/dataset/c499521b-76ad-4b04-9ba3-cf0... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/8270E41E-7853-435B-AF51-2092A19... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/C77E5372-AB90-47F1-9D97-59CD841... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/8270E41E-7853-... (site=https://www.geocat.ch)
+[Depth 3] Crawling: https://www.geocat.ch/datahub/search/dataset/c3ebd7ba-0fd5-411a-9074-3d0cdc46bc4... (site=https://www.geocat.ch)
+[Depth 6] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/C77E5372-AB90-... (site=https://www.geocat.ch)
+[Depth 3] Crawling: https://www.geocat.ch/datahub/search/dataset/dd6d7e35-b790-43b2-ad6f-a8c7594c15c... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/D6EC968F-57BE-4F3A-B7B4-BB11850... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/D6EC968F-57BE-4F3A-B7B4-BB11850430D3/formatters/zip?withRelated=false&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/D6EC968F-57BE-4F3A-B7B4-BB11850430D3/formatters/zip?withRelated=false&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/D6EC968F-57BE-4F3A-B7B4-BB11850... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/D6EC968F-57BE-4F3A-B7B4-BB11850430D3/formatters/xsl-view?output=pdf&language=eng&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/D6EC968F-57BE-4F3A-B7B4-BB11850430D3/formatters/xsl-view?output=pdf&language=eng&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/D6EC968F-57BE-4F3A-B7B4-BB11850... (site=https://www.geocat.ch)
+
+=== Processing seed 31/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/BA72E529-7259-... (site=https://www.geocat.ch)
+  Error crawling https://info.geocat.ch/: Page.goto: net::ERR_CONNECTION_RESET at https://info.geocat.ch/
+Call log:
+  - navigating to "https://info.geocat.ch/", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/datahub/search/: Page.goto: Navigation to "https://www.geocat.ch/datahub/search/" is interrupted by another navigation to "chrome-error://chromewebdata/"
+Call log:
+  - navigating to "https://www.geocat.ch/datahub/search/", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/0E770AF7-C501-4F67-912B-64C1911... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/0E770AF7-C501-4F67-912B-64C191175461/formatters/zip?withRelated=false&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/0E770AF7-C501-4F67-912B-64C191175461/formatters/zip?withRelated=false&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/0E770AF7-C501-4F67-912B-64C1911... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/0E770AF7-C501-4F67-912B-64C191175461/formatters/xsl-view?output=pdf&language=eng&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/0E770AF7-C501-4F67-912B-64C191175461/formatters/xsl-view?output=pdf&language=eng&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/0E770AF7-C501-4F67-912B-64C1911... (site=https://www.geocat.ch)
+
+=== Processing seed 32/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/48170945?redir... (site=https://www.geocat.ch)
+[Depth 4] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#main-header... (site=https://www.geocat.ch)
+[Depth 3] Crawling: https://www.geocat.ch/datahub/search/dataset/2da7a969-4822-4706-a2e6-d93c70b8d4c... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/D6EC968F-57BE-4F3A-B7B4-BB11850... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/0E770AF7-C501-4F67-912B-64C1911... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/D6EC968F-57BE-4F3A-B7B4-BB11850... (site=https://www.geocat.ch)
+[Depth 3] Crawling: https://www.geocat.ch/datahub/search/dataset/3c127e07-9ab5-4ad1-844c-2a04b2a22e9... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/0E770AF7-C501-4F67-912B-64C1911... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/D6EC968F-57BE-... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/0E770AF7-C501-... (site=https://www.geocat.ch)
+[Depth 3] Crawling: https://www.geocat.ch/datahub/search/dataset/22d2e471-e1d4-4bde-9424-37d6188d0ee... (site=https://www.geocat.ch)
+[Depth 4] Crawling: https://www.facebook.com/sharer.php?u=https://info.geocat.ch/de... (site=https://www.facebook.com)
+[Depth 1] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/8270E41E-7853-435B-AF51-2092A19... (site=https://www.geocat.ch)
+[Depth 3] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 3] Crawling: https://www.geocat.ch/datahub/search/dataset/08c2283f-84aa-4c76-ad94-33ccc9f8579... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/8270E41E-7853-435B-AF51-2092A19FF71C/formatters/zip?withRelated=false&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/8270E41E-7853-435B-AF51-2092A19FF71C/formatters/zip?withRelated=false&approved=true", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/8270E41E-7853-435B-AF51-2092A19... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/8270E41E-7853-435B-AF51-2092A19FF71C/formatters/xsl-view?output=pdf&language=eng&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/8270E41E-7853-435B-AF51-2092A19FF71C/formatters/xsl-view?output=pdf&language=eng&approved=true", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-identificationInf... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 3] Crawling: https://www.geocat.ch/datahub/search/dataset/36077452-455f-49b4-8d12-565d9c74444... (site=https://www.geocat.ch)
+
+=== Processing seed 33/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/5DD085EA-CC2B-... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 3] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 3] Crawling: https://www.bafu.admin.ch/en/groundwater-maps... (site=https://www.bafu.admin.ch)
+[Depth 3] Crawling: https://www.geocat.ch/datahub/search/dataset/06fa9124-7bcc-453c-83cc-15a28095da2... (site=https://www.geocat.ch)
+[Depth 3] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+  Error crawling https://info.geocat.ch/: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://info.geocat.ch/", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+  Error crawling https://www.bafu.admin.ch/en/groundwater-maps: Page.goto: Navigation to "https://www.bafu.admin.ch/en/groundwater-maps" is interrupted by another navigation to "chrome-error://chromewebdata/"
+Call log:
+  - navigating to "https://www.bafu.admin.ch/en/groundwater-maps", waiting until "networkidle"
+
+[Depth 3] Crawling: https://www.bafu.admin.ch/en/groundwater-maps... (site=https://www.bafu.admin.ch)
+[Depth 2] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/3AD20B7B-A8BB-45B9-AF34-F4E71AD... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 2] Crawling: https://github.com/geonetwork/core-geonetwork... (site=https://github.com)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/3AD20B7B-A8BB-45B9-AF34-F4E71ADAD2BD/formatters/zip?withRelated=false&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/3AD20B7B-A8BB-45B9-AF34-F4E71ADAD2BD/formatters/zip?withRelated=false&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/3AD20B7B-A8BB-45B9-AF34-F4E71AD... (site=https://www.geocat.ch)
+  Error crawling https://github.com/geonetwork/core-geonetwork: Page.goto: Navigation to "https://github.com/geonetwork/core-geonetwork" is interrupted by another navigation to "chrome-error://chromewebdata/"
+Call log:
+  - navigating to "https://github.com/geonetwork/core-geonetwork", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/doc/api... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/3AD20B7B-A8BB-45B9-AF34-F4E71ADAD2BD/formatters/xsl-view?output=pdf&language=eng&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/3AD20B7B-A8BB-45B9-AF34-F4E71ADAD2BD/formatters/xsl-view?output=pdf&language=eng&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/3AD20B7B-A8BB-45B9-AF34-F4E71AD... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/doc/api: Page.goto: Navigation to "https://www.geocat.ch/geonetwork/doc/api" is interrupted by another navigation to "https://github.com/geonetwork/core-geonetwork"
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/doc/api", waiting until "networkidle"
+
+[Depth 2] Crawling: https://twitter.com/share?url=https%3A%2F%2Fwww.geocat.ch%2Fgeonetwork%2Fsrv%2Fe... (site=https://twitter.com)
+  Error crawling https://www.bafu.admin.ch/en/groundwater-maps: Page.goto: Navigation to "https://www.bafu.admin.ch/en/groundwater-maps" is interrupted by another navigation to "https://www.bafu.admin.ch/en/groundwater-maps"
+Call log:
+  - navigating to "https://www.bafu.admin.ch/en/groundwater-maps", waiting until "networkidle"
+
+[Depth 3] Crawling: https://data.geo.admin.ch/browser/index.html#/collections/ch.bafu.hydrogeologisc... (site=https://data.geo.admin.ch)
+  Error crawling https://twitter.com/share?url=https%3A%2F%2Fwww.geocat.ch%2Fgeonetwork%2Fsrv%2Feng%2Fcatalog.search%23%2Fmetadata%2F2378981%3FredirectUrl%3Dcatalog.search%2523%252Fmetadata%252Faeb2991f-6cf7-4d33-9e73-5a8a53418f3c: Page.goto: Navigation to "https://twitter.com/share?url=https%3A%2F%2Fwww.geocat.ch%2Fgeonetwork%2Fsrv%2Feng%2Fcatalog.search%23%2Fmetadata%2F2378981%3FredirectUrl%3Dcatalog.search%2523%252Fmetadata%252Faeb2991f-6cf7-4d33-9e73-5a8a53418f3c" is interrupted by another navigation to "https://www.geocat.ch/geonetwork/doc/api/index.html"
+Call log:
+  - navigating to "https://twitter.com/share?url=https%3A%2F%2Fwww.geocat.ch%2Fgeonetwork%2Fsrv%2Feng%2Fcatalog.search%23%2Fmetadata%2F2378981%3FredirectUrl%3Dcatalog.search%2523%252Fmetadata%252Faeb2991f-6cf7-4d33-9e73-5a8a53418f3c", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.geocat.ch%2Fgeonetwork%2... (site=https://www.facebook.com)
+  Error crawling https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.geocat.ch%2Fgeonetwork%2Fsrv%2Feng%2Fcatalog.search%23%2Fmetadata%2F2378981%3FredirectUrl%3Dcatalog.search%2523%252Fmetadata%252Faeb2991f-6cf7-4d33-9e73-5a8a53418f3c: Page.goto: Navigation to "https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.geocat.ch%2Fgeonetwork%2Fsrv%2Feng%2Fcatalog.search%23%2Fmetadata%2F2378981%3FredirectUrl%3Dcatalog.search%2523%252Fmetadata%252Faeb2991f-6cf7-4d33-9e73-5a8a53418f3c" is interrupted by another navigation to "https://x.com/share?url=https%3A%2F%2Fwww.geocat.ch%2Fgeonetwork%2Fsrv%2Feng%2Fcatalog.search%23%2Fmetadata%2F2378981%3FredirectUrl%3Dcatalog.search%2523%252Fmetadata%252Faeb2991f-6cf7-4d33-9e73-5a8a53418f3c"
+Call log:
+  - navigating to "https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.geocat.ch%2Fgeonetwork%2Fsrv%2Feng%2Fcatalog.search%23%2Fmetadata%2F2378981%3FredirectUrl%3Dcatalog.search%2523%252Fmetadata%252Faeb2991f-6cf7-4d33-9e73-5a8a53418f3c", waiting until "networkidle"
+
+[Depth 1] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+  Error crawling https://data.geo.admin.ch/browser/index.html#/collections/ch.bafu.hydrogeologische-karte_100?.language=en: Page.goto: Navigation to "https://data.geo.admin.ch/browser/index.html#/collections/ch.bafu.hydrogeologische-karte_100?.language=en" is interrupted by another navigation to "https://www.bafu.admin.ch/en/groundwater-maps"
+Call log:
+  - navigating to "https://data.geo.admin.ch/browser/index.html#/collections/ch.bafu.hydrogeologische-karte_100?.language=en", waiting until "networkidle"
+
+[Depth 3] Crawling: https://data.geo.admin.ch/browser/index.html#/collections/ch.bafu.hydrogeologisc... (site=https://data.geo.admin.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/3AD20B7B-A8BB-45B9-AF34-F4E71AD... (site=https://www.geocat.ch)
+  Error crawling https://info.geocat.ch/: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://info.geocat.ch/", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/3AD20B7B-A8BB-45B9-AF34-F4E71AD... (site=https://www.geocat.ch)
+[Depth 4] Crawling: https://data.geo.admin.ch/browser/#/... (site=https://data.geo.admin.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/3AD20B7B-A8BB-... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/1285CD66-D0E3-482A-A21A-AE960E2... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/1285CD66-D0E3-482A-A21A-AE960E27FCDC/formatters/zip?withRelated=false&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/1285CD66-D0E3-482A-A21A-AE960E27FCDC/formatters/zip?withRelated=false&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/1285CD66-D0E3-482A-A21A-AE960E2... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/1285CD66-D0E3-482A-A21A-AE960E27FCDC/formatters/xsl-view?output=pdf&language=eng&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/1285CD66-D0E3-482A-A21A-AE960E27FCDC/formatters/xsl-view?output=pdf&language=eng&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/1285CD66-D0E3-482A-A21A-AE960E2... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+  Error crawling https://info.geocat.ch/: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://info.geocat.ch/", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/C77E5372-AB90-47F1-9D97-59CD841... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/C77E5372-AB90-47F1-9D97-59CD841CC248/formatters/zip?withRelated=false&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/C77E5372-AB90-47F1-9D97-59CD841CC248/formatters/zip?withRelated=false&approved=true", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/C77E5372-AB90-47F1-9D97-59CD841... (site=https://www.geocat.ch)
+[Depth 4] Crawling: https://data.geo.admin.ch/browser/#/... (site=https://data.geo.admin.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/C77E5372-AB90-47F1-9D97-59CD841CC248/formatters/xsl-view?output=pdf&language=eng&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/C77E5372-AB90-47F1-9D97-59CD841CC248/formatters/xsl-view?output=pdf&language=eng&approved=true", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-identificationInf... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/1285CD66-D0E3-482A-A21A-AE960E2... (site=https://www.geocat.ch)
+[Depth 4] Crawling: https://data.geo.admin.ch/browser/#/search... (site=https://data.geo.admin.ch)
+[Depth 2] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/1285CD66-D0E3-482A-A21A-AE960E2... (site=https://www.geocat.ch)
+[Depth 4] Crawling: https://leafletjs.com... (site=https://leafletjs.com)
+  Error crawling https://info.geocat.ch/: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://info.geocat.ch/", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 3] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/1285CD66-D0E3-... (site=https://www.geocat.ch)
+[Depth 5] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#features... (site=https://www.geocat.ch)
+  Error crawling https://info.geocat.ch/: Page.goto: Navigation to "https://info.geocat.ch/" is interrupted by another navigation to "https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.geocat.ch%2Fgeonetwork%2Fsrv%2Feng%2Fcatalog.search%23%2Fmetadata%2F2378981%3FredirectUrl%3Dcatalog.search%2523%252Fmetadata%252Faeb2991f-6cf7-4d33-9e73-5a8a53418f3c"
+Call log:
+  - navigating to "https://info.geocat.ch/", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/datahub/search/: Page.goto: Navigation to "https://www.geocat.ch/datahub/search/" is interrupted by another navigation to "https://info.geocat.ch/de"
+Call log:
+  - navigating to "https://www.geocat.ch/datahub/search/", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+[Depth 2] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+
+=== Processing seed 34/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/48170689?redir... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-distributionInfo... (site=https://www.geocat.ch)
+[Depth 3] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 3] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+[Depth 2] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-distributionInfo... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/0E770AF7-C501-4F67-912B-64C1911... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-distributionInfo: Page.goto: Navigation to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-distributionInfo" is interrupted by another navigation to "chrome-error://chromewebdata/"
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-distributionInfo", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-dataQualityInfo... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/BA72E529-7259-4ECF-843A-7F8CD5A... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-dataQualityInfo: Page.goto: Navigation to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-dataQualityInfo" is interrupted by another navigation to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-distributionInfo"
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-dataQualityInfo", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-spatialRepresenta... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/0E770AF7-C501-4F67-912B-64C191175461/formatters/zip?withRelated=false&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/0E770AF7-C501-4F67-912B-64C191175461/formatters/zip?withRelated=false&approved=true", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/0E770AF7-C501-4F67-912B-64C1911... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/BA72E529-7259-4ECF-843A-7F8CD5A46668/formatters/zip?withRelated=false&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/BA72E529-7259-4ECF-843A-7F8CD5A46668/formatters/zip?withRelated=false&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/BA72E529-7259-4ECF-843A-7F8CD5A... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/0E770AF7-C501-4F67-912B-64C191175461/formatters/xsl-view?output=pdf&language=eng&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/0E770AF7-C501-4F67-912B-64C191175461/formatters/xsl-view?output=pdf&language=eng&approved=true", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-identificationInf... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/BA72E529-7259-4ECF-843A-7F8CD5A46668/formatters/xsl-view?output=pdf&language=eng&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/BA72E529-7259-4ECF-843A-7F8CD5A46668/formatters/xsl-view?output=pdf&language=eng&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/BA72E529-7259-4ECF-843A-7F8CD5A... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 3] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 6] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/BA72E529-7259-4ECF-843A-7F8CD5A... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/5DD085EA-CC2B-475C-8612-A3AF2F3... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+[Depth 2] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/5DD085EA-CC2B-475C-8612-A3AF2F3E9F0D/formatters/zip?withRelated=false&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/5DD085EA-CC2B-475C-8612-A3AF2F3E9F0D/formatters/zip?withRelated=false&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/5DD085EA-CC2B-475C-8612-A3AF2F3... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/BA72E529-7259-4ECF-843A-7F8CD5A... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/D6EC968F-57BE-4F3A-B7B4-BB11850... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/3AD20B7B-A8BB-45B9-AF34-F4E71AD... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/5DD085EA-CC2B-475C-8612-A3AF2F3E9F0D/formatters/xsl-view?output=pdf&language=eng&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/5DD085EA-CC2B-475C-8612-A3AF2F3E9F0D/formatters/xsl-view?output=pdf&language=eng&approved=true", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/5DD085EA-CC2B-475C-8612-A3AF2F3... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/D6EC968F-57BE-4F3A-B7B4-BB11850430D3/formatters/zip?withRelated=false&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/D6EC968F-57BE-4F3A-B7B4-BB11850430D3/formatters/zip?withRelated=false&approved=true", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/D6EC968F-57BE-4F3A-B7B4-BB11850... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/3AD20B7B-A8BB-45B9-AF34-F4E71ADAD2BD/formatters/zip?withRelated=false&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/3AD20B7B-A8BB-45B9-AF34-F4E71ADAD2BD/formatters/zip?withRelated=false&approved=true", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/3AD20B7B-A8BB-45B9-AF34-F4E71AD... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/D6EC968F-57BE-4F3A-B7B4-BB11850430D3/formatters/xsl-view?output=pdf&language=eng&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/D6EC968F-57BE-4F3A-B7B4-BB11850430D3/formatters/xsl-view?output=pdf&language=eng&approved=true", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-identificationInf... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/3AD20B7B-A8BB-45B9-AF34-F4E71ADAD2BD/formatters/xsl-view?output=pdf&language=eng&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/3AD20B7B-A8BB-45B9-AF34-F4E71ADAD2BD/formatters/xsl-view?output=pdf&language=eng&approved=true", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-identificationInf... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/BA72E529-7259-... (site=https://www.geocat.ch)
+[Depth 3] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-distributionInfo... (site=https://www.geocat.ch)
+[Depth 3] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/5DD085EA-CC2B-475C-8612-A3AF2F3... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-dataQualityInfo... (site=https://www.geocat.ch)
+[Depth 6] Crawling: https://www.geocat.ch/geonetwork/doc/api... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-dataQualityInfo: Page.goto: Navigation to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-dataQualityInfo" is interrupted by another navigation to "chrome-error://chromewebdata/"
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-dataQualityInfo", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-spatialRepresenta... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-spatialRepresentationInfo: Page.goto: Navigation to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-spatialRepresentationInfo" is interrupted by another navigation to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-dataQualityInfo"
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-spatialRepresentationInfo", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-referenceSystemIn... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-referenceSystemInfo: Page.goto: Navigation to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-referenceSystemInfo" is interrupted by another navigation to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-spatialRepresentationInfo"
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-referenceSystemInfo", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/search?query_string=%7B... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/search?query_string=%7B"cl_spatialRepresentationType.key":%7B"vector":true%7D%7D: Page.goto: Navigation to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/search?query_string=%7B%22cl_spatialRepresentationType.key%22:%7B%22vector%22:true%7D%7D" is interrupted by another navigation to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-referenceSystemInfo"
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/search?query_string=%7B%22cl_spatialRepresentationType.key%22:%7B%22vector%22:true%7D%7D", waiting until "networkidle"
+
+
+=== Processing seed 35/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/39f554ef-608c-... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-dataQualityInfo... (site=https://www.geocat.ch)
+
+=== Processing seed 36/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/48821748?redir... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/5DD085EA-CC2B-475C-8612-A3AF2F3... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/1285CD66-D0E3-482A-A21A-AE960E2... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/1285CD66-D0E3-482A-A21A-AE960E27FCDC/formatters/zip?withRelated=false&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/1285CD66-D0E3-482A-A21A-AE960E27FCDC/formatters/zip?withRelated=false&approved=true", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/1285CD66-D0E3-482A-A21A-AE960E2... (site=https://www.geocat.ch)
+[Depth 3] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 3] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/1285CD66-D0E3-482A-A21A-AE960E27FCDC/formatters/xsl-view?output=pdf&language=eng&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/1285CD66-D0E3-482A-A21A-AE960E27FCDC/formatters/xsl-view?output=pdf&language=eng&approved=true", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-identificationInf... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/5DD085EA-CC2B-... (site=https://www.geocat.ch)
+[Depth 7] Crawling: https://www.geocat.ch/srv/api/doc... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-distributionInfo... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-distributionInfo... (site=https://www.geocat.ch)
+[Depth 7] Crawling: https://www.geocat.ch/geonetwork/doc/api... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-dataQualityInfo... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-dataQualityInfo... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-spatialRepresenta... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-spatialRepresenta... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-referenceSystemIn... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-referenceSystemIn... (site=https://www.geocat.ch)
+[Depth 7] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/atom... (site=https://www.geocat.ch)
+[Depth 3] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-distributionInfo... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/search?query_string=%7B... (site=https://www.geocat.ch)
+
+=== Processing seed 37/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/71cffef7-87dc-... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-dataQualityInfo... (site=https://www.geocat.ch)
+
+=== Processing seed 38/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/48058824?redir... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://info.geocat.ch/... (site=https://info.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-spatialRepresenta... (site=https://www.geocat.ch)
+[Depth 3] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-referenceSystemIn... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 8] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/search?query_string=%7B... (site=https://www.geocat.ch)
+[Depth 3] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+
+=== Processing seed 39/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/47d42962-9f86-... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-referenceSystemIn... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-referenceSystemInfo: Page.goto: Navigation to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-referenceSystemInfo" is interrupted by another navigation to "chrome-error://chromewebdata/"
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-referenceSystemInfo", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/search?query_string=%7B... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/search?query_string=%7B"cl_spatialRepresentationType.key":%7B"vector":true%7D%7D: Page.goto: Navigation to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/search?query_string=%7B%22cl_spatialRepresentationType.key%22:%7B%22vector%22:true%7D%7D" is interrupted by another navigation to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-referenceSystemInfo"
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/search?query_string=%7B%22cl_spatialRepresentationType.key%22:%7B%22vector%22:true%7D%7D", waiting until "networkidle"
+
+
+=== Processing seed 40/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/48058781?redir... (site=https://www.geocat.ch)
+[Depth 8] Crawling: https://www.geocat.ch/geonetwork/doc/api... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/5DD085EA-CC2B-475C-8612-A3AF2F3... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/5DD085EA-CC2B-475C-8612-A3AF2F3E9F0D/formatters/zip?withRelated=false&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/5DD085EA-CC2B-475C-8612-A3AF2F3E9F0D/formatters/zip?withRelated=false&approved=true", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/api/records/5DD085EA-CC2B-475C-8612-A3AF2F3... (site=https://www.geocat.ch)
+  Error crawling https://info.geocat.ch/: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://info.geocat.ch/", waiting until "networkidle"
+
+[Depth 3] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/api/records/5DD085EA-CC2B-475C-8612-A3AF2F3E9F0D/formatters/xsl-view?output=pdf&language=eng&approved=true: Page.goto: Download is starting
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/api/records/5DD085EA-CC2B-475C-8612-A3AF2F3E9F0D/formatters/xsl-view?output=pdf&language=eng&approved=true", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-identificationInf... (site=https://www.geocat.ch)
+[Depth 7] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/atom/describeResource... (site=https://www.geocat.ch)
+  Error crawling https://info.geocat.ch/: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://info.geocat.ch/", waiting until "networkidle"
+
+[Depth 2] Crawling: https://www.geocat.ch/datahub/search/... (site=https://www.geocat.ch)
+[Depth 3] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+[Depth 1] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/search?query_string=%7B... (site=https://www.geocat.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/search?query_string=%7B"cl_spatialRepresentationType.key":%7B"vector":true%7D%7D: Page.goto: Navigation to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/search?query_string=%7B%22cl_spatialRepresentationType.key%22:%7B%22vector%22:true%7D%7D" is interrupted by another navigation to "chrome-error://chromewebdata/"
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/search?query_string=%7B%22cl_spatialRepresentationType.key%22:%7B%22vector%22:true%7D%7D", waiting until "networkidle"
+
+
+=== Processing seed 41/1141 ===
+[Depth 0] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/D95DAB03-844E-... (site=https://www.geocat.ch)
+[Depth 3] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+  Error crawling https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html
+Call log:
+  - navigating to "https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html", waiting until "networkidle"
+
+  Error crawling https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-dataQualityInfo: Error while reading from localhost:6379 : (104, 'Connection reset by peer')
+  Error crawling https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/0E770AF7-C501-4F67-912B-64C191175461/formatters/xsl-view?root=div&view=advanced: Error while reading from localhost:6379 : (104, 'Connection reset by peer')
+  Error crawling https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/0E770AF7-C501-4F67-912B-64C191175461: Error while reading from localhost:6379 : (104, 'Connection reset by peer')
+  Error crawling https://info.geocat.ch/: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://info.geocat.ch/", waiting until "networkidle"
+
+  Error crawling https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/48821748?redirectUrl=catalog.search%23%2Fmetadata%2F39f554ef-608c-4d7b-87ec-7c81f8f6259c: Error while reading from localhost:6379 : (104, 'Connection reset by peer')
+[Depth 2] Crawling: https://www.geocat.ch/geonetwork/srv/eng/catalog.search#gn-tab-distributionInfo... (site=https://www.geocat.ch)
+[Depth 2] Crawling: https://www.geocat.admin.ch/en/home/meta/terms-and-conditions.html... (site=https://www.geocat.admin.ch)
+  Error crawling https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/71cffef7-87dc-4abd-84b9-ee09e05950ea: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.geocat.ch/geonetwork/srv/eng/catalog.search#/metadata/71cffef7-87dc-4abd-84b9-ee09e05950ea", waiting until "networkidle"
+

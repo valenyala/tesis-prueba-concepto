@@ -1,0 +1,55 @@
+[mq_writer/es] Redis reconnect attempt 1/20…
+[mq_writer/es] Redis reconnected.
+[mq_writer/es] queue=neo4j_writes_es neo4j=bolt://localhost:7687
+[mq_writer/es] Constraints ensured. Waiting for messages (no timeout)…
+[mq_writer/es] 50 pages written to Neo4j
+[mq_writer/es] 100 pages written to Neo4j
+[mq_writer/es] 150 pages written to Neo4j
+[mq_writer/es] 200 pages written to Neo4j
+[mq_writer/es] 250 pages written to Neo4j
+[mq_writer/es] 300 pages written to Neo4j
+[mq_writer/es] 350 pages written to Neo4j
+[mq_writer/es] Crawl complete. 373 messages processed. Printing stats…
+
+==================================================
+SITE GRAPH STATISTICS — run: run_20260223
+==================================================
+Total sites (nodes):          67
+Total site-to-site edges:     66
+Total page-level links:       9540
+Total pages crawled:          363
+
+Sites by pages crawled:
+  www.idee.es: 362 pages
+  www.mitma.gob.es: 1 pages
+  twitter.com: 0 pages
+  inspire-geoportal.ec.europa.eu: 0 pages
+  www.mapama.gob.es: 0 pages
+  icearagon.aragon.es: 0 pages
+  idecyl.jcyl.es: 0 pages
+  catalogo.idecanarias.es: 0 pages
+  ide.cat: 0 pages
+  www.facebook.com: 0 pages
+
+Strongest site-to-site connections:
+  www.idee.es -> www.facebook.com: 1086 links
+  www.idee.es -> twitter.com: 1086 links
+  www.idee.es -> www.mapama.gob.es: 854 links
+  www.idee.es -> www.geo.euskadi.eus: 740 links
+  www.idee.es -> www.mitma.gob.es: 724 links
+  www.idee.es -> idena.navarra.es: 504 links
+  www.idee.es -> mapas-gis-inter.carm.es: 410 links
+  www.idee.es -> icearagon.aragon.es: 366 links
+  www.idee.es -> catalogo.idecanarias.es: 362 links
+  www.idee.es -> idecyl.jcyl.es: 362 links
+
+Most connected sites (by out-degree):
+  www.idee.es: links to 66 other sites
+
+Most referenced sites (by in-degree):
+  twitter.com: referenced by 1 other sites
+  www.facebook.com: referenced by 1 other sites
+  inspire-geoportal.ec.europa.eu: referenced by 1 other sites
+  www.mapama.gob.es: referenced by 1 other sites
+  www.mitma.gob.es: referenced by 1 other sites
+[mq_writer/es] Exited. Total processed: 373

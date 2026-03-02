@@ -1,0 +1,127 @@
+[mq_writer/ch] Redis reconnect attempt 1/20…
+[mq_writer/ch] Redis reconnected.
+[mq_writer/ch] queue=neo4j_writes_ch neo4j=bolt://localhost:7688
+[mq_writer/ch] Constraints ensured. Waiting for messages (no timeout)…
+[mq_writer/ch] 100 pages written to Neo4j
+[mq_writer/ch] 250 pages written to Neo4j
+[mq_writer/ch] 300 pages written to Neo4j
+[mq_writer/ch] Redis connection lost: Error while reading from localhost:6379 : (104, 'Connection reset by peer')
+[mq_writer/ch] Redis reconnect attempt 1/20…
+[mq_writer/ch] Redis reconnect failed: Error while reading from localhost:6379 : (104, 'Connection reset by peer')
+[mq_writer/ch] Redis reconnect attempt 2/20…
+[mq_writer/ch] Redis reconnect failed: Error while reading from localhost:6379 : (104, 'Connection reset by peer')
+[mq_writer/ch] Redis reconnect attempt 3/20…
+[mq_writer/ch] Redis reconnect failed: Error while reading from localhost:6379 : (104, 'Connection reset by peer')
+[mq_writer/ch] Redis reconnect attempt 4/20…
+[mq_writer/ch] Redis reconnect failed: Error while reading from localhost:6379 : (104, 'Connection reset by peer')
+[mq_writer/ch] Redis reconnect attempt 5/20…
+[mq_writer/ch] Redis reconnect failed: Error while reading from localhost:6379 : (104, 'Connection reset by peer')
+[mq_writer/ch] Redis reconnect attempt 6/20…
+[mq_writer/ch] Redis reconnect failed: Error 111 connecting to localhost:6379. Connection refused.
+[mq_writer/ch] Redis reconnect attempt 7/20…
+[mq_writer/ch] Redis reconnect failed: Error 111 connecting to localhost:6379. Connection refused.
+[mq_writer/ch] Redis reconnect attempt 8/20…
+[mq_writer/ch] Redis reconnect failed: Error 111 connecting to localhost:6379. Connection refused.
+[mq_writer/ch] Redis reconnect attempt 9/20…
+[mq_writer/ch] Redis reconnect failed: Error 111 connecting to localhost:6379. Connection refused.
+[mq_writer/ch] Redis reconnect attempt 10/20…
+[mq_writer/ch] Redis reconnect failed: Error 111 connecting to localhost:6379. Connection refused.
+[mq_writer/ch] Redis reconnect attempt 11/20…
+[mq_writer/ch] Redis reconnect failed: Error 111 connecting to localhost:6379. Connection refused.
+[mq_writer/ch] Redis reconnect attempt 12/20…
+[mq_writer/ch] Redis reconnect failed: Error 111 connecting to localhost:6379. Connection refused.
+[mq_writer/ch] Redis reconnect attempt 13/20…
+[mq_writer/ch] Redis reconnect failed: Error 111 connecting to localhost:6379. Connection refused.
+[mq_writer/ch] Redis reconnect attempt 14/20…
+[mq_writer/ch] Redis reconnect failed: Error 111 connecting to localhost:6379. Connection refused.
+[mq_writer/ch] Redis reconnect attempt 15/20…
+[mq_writer/ch] Redis reconnect failed: Error 111 connecting to localhost:6379. Connection refused.
+[mq_writer/ch] Redis reconnect attempt 16/20…
+[mq_writer/ch] Redis reconnect failed: Error 111 connecting to localhost:6379. Connection refused.
+[mq_writer/ch] Redis reconnect attempt 17/20…
+[mq_writer/ch] Redis reconnect failed: Error 111 connecting to localhost:6379. Connection refused.
+[mq_writer/ch] Redis reconnect attempt 18/20…
+[mq_writer/ch] Redis reconnect failed: Error 111 connecting to localhost:6379. Connection refused.
+[mq_writer/ch] Redis reconnect attempt 19/20…
+[mq_writer/ch] Redis reconnect failed: Error 111 connecting to localhost:6379. Connection refused.
+[mq_writer/ch] Redis reconnect attempt 20/20…
+[mq_writer/ch] Redis reconnect failed: Error 111 connecting to localhost:6379. Connection refused.
+[mq_writer/ch] Exited. Total processed: 478
+Traceback (most recent call last):
+  File "/home/valenyala/.conda/envs/tesis/lib/python3.14/site-packages/redis/connection.py", line 1339, in read_response
+    response = self._parser.read_response(disable_decoding=disable_decoding)
+  File "/home/valenyala/.conda/envs/tesis/lib/python3.14/site-packages/redis/_parsers/resp2.py", line 15, in read_response
+    result = self._read_response(disable_decoding=disable_decoding)
+  File "/home/valenyala/.conda/envs/tesis/lib/python3.14/site-packages/redis/_parsers/resp2.py", line 25, in _read_response
+    raw = self._buffer.readline()
+  File "/home/valenyala/.conda/envs/tesis/lib/python3.14/site-packages/redis/_parsers/socket.py", line 115, in readline
+    self._read_from_socket()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/valenyala/.conda/envs/tesis/lib/python3.14/site-packages/redis/_parsers/socket.py", line 65, in _read_from_socket
+    data = sock.recv(socket_read_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/valenyala/repos/tesis-prueba-concepto/tesis-playwrightCrawler/mq_writer.py", line 319, in main
+    result = r.brpop(queue, timeout=0)
+  File "/home/valenyala/.conda/envs/tesis/lib/python3.14/site-packages/redis/commands/core.py", line 2938, in brpop
+    return self.execute_command("BRPOP", *keys)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/home/valenyala/.conda/envs/tesis/lib/python3.14/site-packages/redis/client.py", line 716, in execute_command
+    return self._execute_command(*args, **options)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/valenyala/.conda/envs/tesis/lib/python3.14/site-packages/redis/client.py", line 736, in _execute_command
+    result = conn.retry.call_with_retry(
+        lambda: self._send_command_parse_response(
+    ...<3 lines>...
+        with_failure_count=True,
+    )
+  File "/home/valenyala/.conda/envs/tesis/lib/python3.14/site-packages/redis/retry.py", line 132, in call_with_retry
+    raise error
+  File "/home/valenyala/.conda/envs/tesis/lib/python3.14/site-packages/redis/retry.py", line 120, in call_with_retry
+    return do()
+  File "/home/valenyala/.conda/envs/tesis/lib/python3.14/site-packages/redis/client.py", line 737, in <lambda>
+    lambda: self._send_command_parse_response(
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        conn, command_name, *args, **options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "/home/valenyala/.conda/envs/tesis/lib/python3.14/site-packages/redis/client.py", line 681, in _send_command_parse_response
+    conn.send_command(*args, **options)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/valenyala/.conda/envs/tesis/lib/python3.14/site-packages/redis/connection.py", line 1302, in send_command
+    self.send_packed_command(
+    ~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._command_packer.pack(*args),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        check_health=kwargs.get("check_health", True),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/valenyala/.conda/envs/tesis/lib/python3.14/site-packages/redis/connection.py", line 1272, in send_packed_command
+    self.connect_check_health(check_health=False)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/valenyala/.conda/envs/tesis/lib/python3.14/site-packages/redis/connection.py", line 1028, in connect_check_health
+    self.on_connect_check_health(check_health=check_health)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/valenyala/.conda/envs/tesis/lib/python3.14/site-packages/redis/connection.py", line 1153, in on_connect_check_health
+    self.read_response()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/valenyala/.conda/envs/tesis/lib/python3.14/site-packages/redis/connection.py", line 1347, in read_response
+    raise ConnectionError(f"Error while reading from {host_error} : {e.args}")
+redis.exceptions.ConnectionError: Error while reading from localhost:6379 : (104, 'Connection reset by peer')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/valenyala/repos/tesis-prueba-concepto/tesis-playwrightCrawler/mq_writer.py", line 371, in <module>
+    main()
+    ~~~~^^
+  File "/home/valenyala/repos/tesis-prueba-concepto/tesis-playwrightCrawler/mq_writer.py", line 322, in main
+    r = reconnect_redis(catalog)
+  File "/home/valenyala/repos/tesis-prueba-concepto/tesis-playwrightCrawler/mq_writer.py", line 127, in reconnect_redis
+    raise RuntimeError(f"[mq_writer/{catalog}] Could not reconnect to Redis after {REDIS_MAX_RETRIES} attempts")
+RuntimeError: [mq_writer/ch] Could not reconnect to Redis after 20 attempts
